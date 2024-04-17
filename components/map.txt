@@ -1,0 +1,335 @@
+{/* Mayiladuthurai */}
+<Marker
+position={[11.1072, 79.6524]}
+icon={MayiladuthuraiIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/mayiladuthurai">Mayiladuthurai</Link>
+</Popup>
+</Marker>
+
+{/* Nagapattinam */}
+<Marker
+position={[10.805, 79.8426]}
+icon={NagapattinamIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/nagapattinam">Nagapattinam</Link>
+</Popup>
+</Marker>
+
+{/* Namakkal */}
+<Marker
+position={[11.2189, 78.1676]}
+icon={NamakkalIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/namakkal">Namakkal</Link>
+</Popup>
+</Marker>
+
+{/* Nilgiris */}
+<Marker
+position={[11.4005, 76.6932]}
+icon={NilgirisIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/nilgiris">Nilgiris</Link>
+</Popup>
+</Marker>
+
+{/* Perambalur */}
+<Marker
+position={[11.226, 78.8771]}
+icon={PerambalurIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/perambalur">Perambalur</Link>
+</Popup>
+</Marker>
+
+{/* Pudukkottai */}
+<Marker
+position={[10.3833, 78.8167]}
+icon={PudukkottaiIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/pudukkottai">Pudukkottai</Link>
+</Popup>
+</Marker>
+
+{/* Ramanathapuram */}
+<Marker
+position={[9.3835, 78.8261]}
+icon={RamanathapuramIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/ramanathapuram">Ramanathapuram</Link>
+</Popup>
+</Marker>
+
+{/* Ranipet */}
+<Marker
+position={[12.927, 79.3332]}
+icon={RanipetIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/ranipet">Ranipet</Link>
+</Popup>
+</Marker>
+
+{/* Salem */}
+<Marker
+position={[11.6643, 78.146]}
+icon={SalemIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/salem">Salem</Link>
+</Popup>
+</Marker>
+
+{/* Sivagangai */}
+<Marker
+position={[9.8487, 78.4836]}
+icon={SivagangaiIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/sivagangai">Sivagangai</Link>
+</Popup>
+</Marker>
+
+{/* Tenkasi */}
+<Marker
+position={[8.9554, 77.308]}
+icon={TenkasiIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tenkasi">Tenkasi</Link>
+</Popup>
+</Marker>
+
+{/* Thanjavur */}
+<Marker
+position={[10.7867, 79.1378]}
+icon={ThanjavurIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/thanjavur">Thanjavur</Link>
+</Popup>
+</Marker>
+
+{/* Theni */}
+<Marker
+position={[10.0095, 77.4768]}
+icon={TheniIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/theni">Theni</Link>
+</Popup>
+</Marker>
+
+{/* Thoothukudi */}
+<Marker
+position={[8.8055, 78.1499]}
+icon={ThoothukudiIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/thoothukudi">Thoothukudi</Link>
+</Popup>
+</Marker>
+
+{/* Tiruchirappalli */}
+<Marker
+position={[10.7905, 78.7047]}
+icon={TiruchirappalliIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tiruchirappalli">Tiruchirappalli</Link>
+</Popup>
+</Marker>
+
+{/* Tirunelveli */}
+<Marker
+position={[8.7139, 77.7567]}
+icon={TirunelveliIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tirunelveli">Tirunelveli</Link>
+</Popup>
+</Marker>
+
+{/* Tirupathur */}
+<Marker
+position={[12.489, 78.5797]}
+icon={TirupathurIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tirupathur">Tirupathur</Link>
+</Popup>
+</Marker>
+
+{/* Tiruppur */}
+<Marker
+position={[11.1075, 77.334]}
+icon={TiruppurIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tiruppur">Tiruppur</Link>
+</Popup>
+</Marker>
+
+{/* Tiruvallur */}
+<Marker
+position={[13.1396, 79.9073]}
+icon={TiruvallurIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tiruvallur">Tiruvallur</Link>
+</Popup>
+</Marker>
+
+{/* Tiruvannamalai */}
+<Marker
+position={[12.2266, 79.0747]}
+icon={TiruvannamalaiIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tiruvannamalai">Tiruvannamalai</Link>
+</Popup>
+</Marker>
+
+{/* Tiruvarur */}
+<Marker
+position={[10.7746, 79.6412]}
+icon={TiruvarurIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/tiruvarur">Tiruvarur</Link>
+</Popup>
+</Marker>
+
+{/* Vellore */}
+<Marker
+position={[12.9165, 79.1325]}
+icon={VelloreIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/vellore">Vellore</Link>
+</Popup>
+</Marker>
+
+{/* Viluppuram */}
+<Marker
+position={[11.9465, 79.4871]}
+icon={ViluppuramIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/viluppuram">Viluppuram</Link>
+</Popup>
+</Marker>
+
+{/* Virudhunagar */}
+<Marker
+position={[9.5821, 77.9525]}
+icon={VirudhunagarIcon}
+>
+<TileLayer
+  attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  url="https://api.maptiler.com/maps/dataviz/256/{z}/{x}/{y}.png?key=7i4sP5BRf51l7b2tlZL8"
+/>
+<Popup className='font-bold text-lg leading-8 text-gray-600'>
+  <Link href="/districts/virudhunagar">Virudhunagar</Link>
+</Popup>
+</Marker>
