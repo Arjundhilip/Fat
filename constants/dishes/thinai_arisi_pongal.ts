@@ -1,126 +1,107 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/top.jpg',
+        topic: 'Thinai Arisi Pongal',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'தினை அரிசி பொங்கல்',
+        topic: 'Thinai Arisi Pongal',
+        des: 'Thinai Arisi Pongal is a traditional South Indian dish, revered not just for its delightful taste but also for its ancient roots. Foxtail millet, known as Thinai in Tamil, has been cultivated in India since antiquity, finding its place in various cultural and religious rituals. This dish is commonly prepared during the harvest festival of Pongal, symbolizing abundance and prosperity. Combining the nuttiness of foxtail millet with the creaminess of moong dal, this recipe brings a piece of South Indian heritage to your table, infused with spices that awaken the senses and warm the soul.',
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Thinai Arisi Pongal',
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/info.svg',
+        imageAlt: 'This traditional South Indian dish combines the nuttiness of foxtail millet with the creaminess of moong dal, creating a flavorful dish infused with spices that warm the soul.',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Foxtail Millet',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/foxtail_millet.jpg',
+        imageAlt: 'Foxtail Millet',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Moong Dal',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/moong_dal.jpg',
+        imageAlt: 'Moong Dal',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Ghee',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/ghee.jpg',
+        imageAlt: 'Ghee',
     },
-]
+   
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Main Course',
+        imageUrl: '/icons/dish.png',
     },
-
-
     {
         name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
+        role: '2nd century',
+        imageUrl: '/icons/decade.png',
     },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Ariyalur',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
 
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Thinai Arisi Pongal',
+        des: 'Thinai Arisi Pongal is a traditional South Indian dish, revered not just for its delightful taste but also for its ancient roots. Foxtail millet, known as Thinai in Tamil, has been cultivated in India since antiquity, finding its place in various cultural and religious rituals. This dish is commonly prepared during the harvest festival of Pongal, symbolizing abundance and prosperity. Combining the nuttiness of foxtail millet with the creaminess of moong dal, this recipe brings a piece of South Indian heritage to your table, infused with spices that awaken the senses and warm the soul.',
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/top.jpg',
     },
 
-]
+];
 
 export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '10 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '20 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '30 mins',
     },
     {
         name: 'Cuisine',
@@ -128,99 +109,59 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Main Course',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Foxtail Millet (Thinai Arisi)', quantity: 0.25, unit: 'cup' },
+    { name: 'Split Yellow Moong Dal', quantity: 2, unit: 'tablespoons' },
+    { name: 'Water', quantity: 1, unit: 'cup' },
+    { name: 'Ghee', quantity: 1, unit: 'teaspoon' },
+    { name: 'Cashew Nuts', quantity: 2 - 3 },
+    { name: 'Black Pepper', quantity: 0.25, unit: 'teaspoon' },
+    { name: 'Cumin Seeds', quantity: 0.25, unit: 'teaspoon' },
+    { name: 'Ginger, finely minced', quantity: 0.25, unit: 'teaspoon' },
+    { name: 'Curry Leaves', quantity: 1, unit: 'sprig' },
+    { name: 'Green Chilli, chopped', quantity: 0.5 },
+    { name: 'Salt', quantity: 0.25, unit: 'teaspoon' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    { point: 'Pressure cook the millet and dal with water for 5 whistles. Allow the pressure to release naturally before opening. Let the mixture cool slightly.' },
+    { point: 'Coarsely grind the black pepper and cumin seeds using a mortar and pestle.' },
+    { point: 'In a pan, heat the ghee and roast the cashew nuts until golden.' },
+    { point: 'Add the minced ginger, curry leaves, and chopped green chilli to the pan. Stir in the ground cumin-pepper mixture and roast for 20 seconds.' },
+    { point: 'Incorporate the cooked millet-dal mixture and salt into the pan. Mix well, allowing the flavors to meld together for a minute or two over low heat.' },
+    { point: 'Remove from heat and serve warm, enjoying the comfort and simplicity of this ancient dish.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
+    { point: 'Adjust the green chilli quantity according to your spice preference.' },
+    { point: 'For a vegan version, replace ghee with oil.' },
+];
 
+export const nutrition = [
+    { point: 'High in fiber' },
+    { point: 'Helps promote healthy digestion.' },
+    { point: 'Helps to maintain lower cholesterol levels.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

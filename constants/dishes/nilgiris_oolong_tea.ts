@@ -1,126 +1,85 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/nilgiris/nilgiris_oolong_tea/top.jpg',
+        topic: 'Nilgiris Oolong Tea',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'நீலகிரி ஊலோங் தேநீர்',
+        topic: 'Nilgiris Oolong Tea',
+        des: `Originating from the verdant slopes of the Nilgiri mountains, Nilgiris Twirl Oolong Tea is a testament to the unique terroir of Southern India's Western Ghats. Oolong tea, or Wu long tea, represents a perfect marriage of black and green teas, undergoing partial oxidation to achieve a spectrum of color and complexity. This special tea blend offers a myriad of health benefits, from aiding weight management and skin health to enhancing mental alertness and managing cholesterol. Its balanced oxidation also supports digestion and promotes dental health, making it a superior choice for tea enthusiasts.`,
+        imageSrc: '/dishes/signature/nilgiris/nilgiris_oolong_tea/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Nilgiris Oolong Tea',
+        imageSrc: '/dishes/signature/nilgiris/nilgiris_oolong_tea/info.svg',
+        imageAlt: 'A refreshing Nilgiris Oolong Tea',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Nilgiris Twirl Oolong Tea',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/nilgiris/nilgiris_oolong_tea/oolong_tea.jpg',
+        imageAlt: 'Nilgiris Twirl Oolong Tea',
     },
-    {
-        id: 2,
-        name: 'Tomato',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
-    },
-    {
-        id: 3,
-        name: 'Channa Dal',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
-    },
-]
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Beverage',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'nilgiris',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
-
+];
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Nilgiris Oolong Tea',
+        des: `Originating from the verdant slopes of the Nilgiri mountains, Nilgiris Twirl Oolong Tea is a testament to the unique terroir of Southern India's Western Ghats. Oolong tea, or Wu long tea, represents a perfect marriage of black and green teas, undergoing partial oxidation to achieve a spectrum of color and complexity. This special tea blend offers a myriad of health benefits, from aiding weight management and skin health to enhancing mental alertness and managing cholesterol. Its balanced oxidation also supports digestion and promotes dental health, making it a superior choice for tea enthusiasts.`,
+        imageSrc: '/dishes/signature/nilgiris/nilgiris_oolong_tea/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '5 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '5 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '10 mins',
     },
     {
         name: 'Cuisine',
@@ -128,99 +87,46 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Beverage',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Nilgiris Twirl Oolong Tea', quantity: 2, unit: 'tablespoons' },
+    { name: 'Water', quantity: 1, unit: 'liter (approximately, to fill the kettle)' },
+    { name: 'Milk', quantity: 0, unit: 'optional, to taste' },
+    { name: 'Honey', quantity: 4, unit: 'tablespoons, optional for sweetening' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Heat Water
+    { point: 'Bring water to a boil in a kettle, then allow it to cool for about 2 minutes to reach the optimal temperature of 85 - 96°C.' },
+    // Steep the Tea
+    { point: 'Place the Oolong tea leaves in a teapot. Pour the slightly cooled water over the tea leaves and cover with a lid. Allow the tea to steep for 1 to 5 minutes, depending on personal taste preference.' },
+    // Serve
+    { point: 'Once the tea has infused to your liking, it is ready to be poured. If desired, honey can be added for sweetness.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'This tea can be enjoyed hot or cold. For a refreshing twist, add honey to the cold tea and enjoy it as a cool beverage.' },
+    { point: 'Adding milk not only enhances the flavor but may also contribute additional health benefits like reducing the risk of obesity and boosting mental alertness.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

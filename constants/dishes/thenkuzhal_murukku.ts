@@ -1,126 +1,101 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/top.jpg',
+        topic: 'Thenkuzhal Murukku',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'தேன்குழல் முறுக்கு',
+        topic: 'Thenkuzhal Murukku',
+        des: `Thenkuzhal Murukku is a traditional South Indian snack, often prepared in large quantities for Diwali and Gokulashtami festivals. Made with a blend of rice flour and urad dal flour, these crispy snacks are shaped using a murukku press and deep-fried to golden perfection. The addition of butter gives them a crisp texture and a light color, making them an irresistible treat.`,
+        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Thenkuzhal Murukku',
+        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/info.svg',
+        imageAlt: 'A traditional South Indian snack made with rice flour and urad dal flour',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Rice Flour (Idiyappam Flour)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/rice_flour.jpg',
+        imageAlt: 'Rice Flour (Idiyappam Flour)',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Urad Dal Flour',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/urad_dal_flour.jpg',
+        imageAlt: 'Urad Dal Flour',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Butter',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/butter.jpg',
+        imageAlt: 'Butter',
     },
-]
+    // Add other ingredients as required
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Snack',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Tiruchirappalli',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+      
+        topic: 'Thenkuzhal Murukku',
+        des: `Thenkuzhal Murukku is a traditional South Indian snack, often prepared in large quantities for Diwali and Gokulashtami festivals. Made with a blend of rice flour and urad dal flour, these crispy snacks are shaped using a murukku press and deep-fried to golden perfection. The addition of butter gives them a crisp texture and a light color, making them an irresistible treat.`,
+        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '15 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '30 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '45 mins',
     },
     {
         name: 'Cuisine',
@@ -128,99 +103,63 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Snacks',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Rice Flour (Idiyappam Flour)', quantity: 0.5, unit: 'cup' },
+    { name: 'Urad Dal Flour', quantity: 1, unit: 'tablespoon' },
+    { name: 'Butter + Oil (combined)', quantity: 2, unit: 'teaspoons' },
+    { name: 'Asafoetida', quantity: 1, unit: 'pinch' },
+    { name: 'Cumin Seeds or Sesame Seeds', quantity: 0.75, unit: 'teaspoon' },
+    { name: 'Salt', quantity: 0, unit: 'to taste' },
+    { name: 'Oil', quantity: 0, unit: 'for deep frying' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Mix the Dough
+    { point: 'Mix rice flour, urad dal flour, melted butter, oil, asafoetida, cumin seeds, and salt in a bowl.' },
+    { point: 'Add water little by little to form a non-sticky dough with no cracks.' },
+    // Fry the Murukku
+    { point: 'Heat enough oil in a kadai for deep frying.' },
+    { point: 'Fill a murukku press with the dough using the plate with holes suitable for murukku.' },
+    { point: 'Grease a ladle, form the murukku shape on it, and gently invert it into the hot oil.' },
+    { point: 'Deep fry on medium flame until the sizzling sound stops and the murukku turns golden.' },
+    // Cool and Store
+    { point: 'Drain on a paper towel and let it cool completely before storing in airtight containers.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
+    { point: 'Keep the dough covered to prevent drying.' },
+    { point: 'Make in batches to maintain the texture.' },
+    { point: 'Ensure the rice and urad dal flours are finely ground to avoid breakage.' },
+    { point: 'Adding more urad dal flour can alter the color and texture.' },
+    { point: 'Fry in enough oil to prevent uneven browning.' },
+    { point: 'Top up with more oil after a few batches, as it gets absorbed.' },
+];
 
+export const nutrition = [
+    { point: 'Urad dal provides protein and fiber.' },
+    { point: 'Rice flour is gluten-free and light.' },
+    { point: 'Butter adds healthy fats and gives the murukku a crisp texture.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

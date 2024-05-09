@@ -1,126 +1,101 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/top.jpg',
+        topic: 'Munthiri Kothu',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'முந்திரி கொத்து',
+        topic: 'Munthiri Kothu',
+        des: `Munthiri Kothu, a traditional sweet from the southern parts of India, particularly Kerala and Tamil Nadu, is a delightful concoction of roasted green gram, coconut, and jaggery. The name 'Munthiri Kothu' literally translates to 'cluster of grapes' in Malayalam and Tamil, alluding to the appearance of these fried sweet balls when clustered together. This delicacy is often made during festivals and special occasions, symbolizing joy and togetherness. The combination of jaggery and coconut brings a natural sweetness and richness to the dish, while the green gram adds a nutty flavor and a crunchy texture. Deep-fried to golden perfection, these sweet balls are a testament to the simple yet profound flavors of South Indian cuisine.`,
+        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Munthiri Kothu',
+        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/info.svg',
+        imageAlt: 'A traditional South Indian sweet cluster',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Whole green gram dal',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/green_gram.jpg',
+        imageAlt: 'Whole Green Gram Dal',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Jaggery',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/jaggery.jpg',
+        imageAlt: 'Jaggery',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Coconut',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/coconut.jpg',
+        imageAlt: 'Grated Coconut',
     },
-]
+    // Add other ingredients as required
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Dessert',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'kanyakumari',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+      
+        topic: 'Munthiri Kothu',
+        des: `Munthiri Kothu, a traditional sweet from the southern parts of India, particularly Kerala and Tamil Nadu, is a delightful concoction of roasted green gram, coconut, and jaggery. The name 'Munthiri Kothu' literally translates to 'cluster of grapes' in Malayalam and Tamil, alluding to the appearance of these fried sweet balls when clustered together. This delicacy is often made during festivals and special occasions, symbolizing joy and togetherness. The combination of jaggery and coconut brings a natural sweetness and richness to the dish, while the green gram adds a nutty flavor and a crunchy texture. Deep-fried to golden perfection, these sweet balls are a testament to the simple yet profound flavors of South Indian cuisine.`,
+        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '10 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '20 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '30 mins',
     },
     {
         name: 'Cuisine',
@@ -128,86 +103,42 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Dessert',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Whole green gram dal', quantity: 0.5, unit: 'cup' },
+    { name: 'Jaggery', quantity: 0.33, unit: 'cup' },
+    { name: 'Coconut, grated', quantity: 0.5, unit: 'cup' },
+    { name: 'Cardamom', quantity: 1, unit: '' },
+    { name: 'Oil', quantity: 0, unit: 'for deep frying' },
+    // For the Batter
+    { name: 'Rice flour', quantity: 0.33, unit: 'cup' },
+    { name: 'Turmeric powder', quantity: 0.25, unit: 'teaspoon' },
+    { name: 'Salt', quantity: 0, unit: 'to taste' },
+    { name: 'Water', quantity: 0, unit: 'as needed' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    { point: 'Prepare Jaggery Syrup: Soak jaggery in warm water until covered, then crush it well. Heat until slightly thick (no need to check for string consistency), strain, and set aside.' },
+    { point: 'Roast and Grind Green Gram: Dry roast green gram dal until golden brown, let it cool, then grind to a coarse mixture resembling rice rava. Set aside.' },
+    { point: 'Roast and Grind Coconut: Dry roast grated coconut until golden, let it cool, then give it a quick grind.' },
+    { point: 'Mix: In a bowl, combine the green gram and coconut mixtures with cardamom powder.' },
+    { point: 'Combine with Jaggery Syrup: Heat the jaggery syrup until it reaches a honey-like consistency, then add the green gram-coconut mixture. Switch off the heat and mix well until everything is coated with jaggery.' },
+    { point: 'Form Balls: While still warm, shape the mixture into small lemon-sized balls and set aside for at least 30 minutes to firm up.' },
+    { point: 'Prepare Batter: Mix rice flour, turmeric powder, and salt in a bowl. Add water gradually to form a smooth batter slightly thinner than idli batter.' },
+    { point: 'Coat and Fry: Dip each ball in the batter, ensuring its fully coated. Heat oil in a pan and deep-fry the balls until golden brown. Fry in batches if necessary and drain on tissue paper.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'It\'s essential to allow the formed balls to rest before frying; otherwise, they may crumble.' },
+    { point: 'If forming balls is challenging, the jaggery syrup may not be at the correct consistency.' },
+    { point: 'Munthiri Kothu can be stored for 2-3 weeks.' },
 ];
 
 export const diet = [
@@ -220,7 +151,7 @@ export const diet = [
     {
         point: 'Anti-oxidant'
     },
-    
+
 ];
 
 export const reviews = { href: '#', average: 5, totalCount: 138 }

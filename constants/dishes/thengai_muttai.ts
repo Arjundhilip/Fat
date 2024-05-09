@@ -1,126 +1,101 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/karur/thengai_muttai/top.jpg',
+        topic: 'Thengai Muttai',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'தேங்காய் மிட்டாய்',
+        topic: 'Thengai Muttai',
+        des: `Karur Thengai Muttai is a traditional South Indian sweet made with grated coconut and jaggery, forming a crunchy candy-like treat. It's flavored with cardamom and prepared by boiling jaggery to a candy consistency before mixing with dry roasted coconut. This sweet is cut into desired shapes while still warm and hardens upon cooling, making it a delightful snack that can be stored for weeks.`,
+        imageSrc: '/dishes/signature/karur/thengai_muttai/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Thengai Muttai',
+        imageSrc: '/dishes/signature/karur/thengai_muttai/info.svg',
+        imageAlt: 'A crunchy South Indian sweet made with grated coconut and jaggery',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Dry Coconut',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/karur/thengai_muttai/dry_coconut.jpg',
+        imageAlt: 'Dry Coconut',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Jaggery',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/karur/thengai_muttai/jaggery.jpg',
+        imageAlt: 'Jaggery',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Cardamom Powder',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/karur/thengai_muttai/cardamom_powder.jpg',
+        imageAlt: 'Cardamom Powder',
     },
-]
+    // Add other ingredients if required
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Dessert',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Karur',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
 
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Thengai Muttai',
+        des: `Karur Thengai Muttai is a traditional South Indian sweet made with grated coconut and jaggery, forming a crunchy candy-like treat. It's flavored with cardamom and prepared by boiling jaggery to a candy consistency before mixing with dry roasted coconut. This sweet is cut into desired shapes while still warm and hardens upon cooling, making it a delightful snack that can be stored for weeks.`,
+        imageSrc: '/dishes/signature/karur/thengai_muttai/top.jpg',
     },
-
-]
+];
 
 export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '10 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '20 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '30 mins',
     },
     {
         name: 'Cuisine',
@@ -128,86 +103,52 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Dessert',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Dry Coconut (Grated)', quantity: 0.25, unit: 'cup' },
+    { name: 'Jaggery (Crushed)', quantity: 0.25, unit: 'cup' },
+    { name: 'Water', quantity: 1, unit: 'tablespoon' },
+    { name: 'Cardamom Powder', quantity: 1, unit: 'pinch' },
+    { name: 'Oil/Ghee (for greasing)', quantity: 0.25, unit: 'teaspoon' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Dry Roast Coconut and Melt Jaggery
+    { point: 'In a pan, dry roast the grated dry coconut over low flame until aromatic.' },
+    { point: 'Add cardamom powder, mix well, and set aside.' },
+    { point: 'In another pan, melt the crushed jaggery with ¼ cup water.' },
+    // Boil Jaggery Syrup and Test Consistency
+    { point: 'Once melted, filter the syrup into a fresh pan and boil over low to medium flame.' },
+    { point: 'Stir continuously until the syrup thickens to a hard candy consistency.' },
+    { point: 'To test, drop a little syrup into a bowl of water. If it forms a hard ball, the consistency is right.' },
+    // Mix Coconut and Shape
+    { point: 'Lower the flame and add the roasted coconut to the syrup.' },
+    { point: 'Mix well to form a slightly thick, loose dough.' },
+    { point: 'Grease a flat tray or plate with oil/ghee and transfer the dough.' },
+    { point: 'Flatten to about 1-inch thickness or as preferred.' },
+    // Cut and Harden
+    { point: 'While still hot, cut into pieces using a greased knife.' },
+    { point: 'Let the pieces set for a few minutes until they harden.' },
+    { point: 'Store in an airtight container to keep them fresh for up to a month.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
+    { point: 'Ensure the syrup reaches a hard candy consistency before adding the coconut.' },
+    { point: 'Cut the mixture into pieces while its still hot to maintain shape.' },
+    { point: 'Use high-quality jaggery and dry coconut for the best flavor.' },
+];
 
+export const nutrition = [
+    { point: 'Coconut is rich in healthy fats and minerals.' },
+    { point: 'Jaggery provides natural sweetness and essential minerals.' },
+    { point: 'Cardamom offers antioxidants and a delightful aroma.' },
 ];
 
 export const diet = [
@@ -220,7 +161,7 @@ export const diet = [
     {
         point: 'Anti-oxidant'
     },
-    
+
 ];
 
 export const reviews = { href: '#', average: 5, totalCount: 138 }

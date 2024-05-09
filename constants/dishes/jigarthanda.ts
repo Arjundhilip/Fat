@@ -1,126 +1,101 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/madurai/jigarthanda/top.jpg',
+        topic: 'Jigarthanda',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'ஜிகர்தண்டா',
+        topic: 'Jigarthanda',
+        des: `Originating from the heart of Madurai, a city with a history that echoes through the ages, Jigarthanda is a cooling delight that transcends mere refreshment. Its name, translating to "heart-cooler" in English, speaks volumes of its purpose and effect. Crafted with a meticulous blend of milk, almond gum, and nannari syrup, this dessert drink is a testament to the culinary ingenuity of Tamil Nadu. Traditionally savored during the sweltering heat, each sip of Jigarthanda takes you on a journey through time, offering a taste of ancient traditions and the bustling streets of Madurai.`,
+        imageSrc: '/dishes/signature/madurai/jigarthanda/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Jigarthanda',
+        imageSrc: '/dishes/signature/madurai/jigarthanda/info.svg',
+        imageAlt: 'A traditional South Indian cooling drink',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Milk',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/madurai/jigarthanda/milk.jpg',
+        imageAlt: 'Milk',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Badam pisin (almond gum)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/madurai/jigarthanda/almond_gum.jpg',
+        imageAlt: 'Badam Pisin (Almond Gum)',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Nannari syrup',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/madurai/jigarthanda/nannari_syrup.jpg',
+        imageAlt: 'Nannari Syrup',
     },
-]
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Dessert',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'madurai',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+      
+        topic: 'Jigarthanda',
+        des: `Originating from the heart of Madurai, a city with a history that echoes through the ages, Jigarthanda is a cooling delight that transcends mere refreshment. Its name, translating to "heart-cooler" in English, speaks volumes of its purpose and effect. Crafted with a meticulous blend of milk, almond gum, and nannari syrup, this dessert drink is a testament to the culinary ingenuity of Tamil Nadu. Traditionally savored during the sweltering heat, each sip of Jigarthanda takes you on a journey through time, offering a taste of ancient traditions and the bustling streets of Madurai.`,
+        imageSrc: '/dishes/signature/madurai/jigarthanda/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '1 day',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '2 hours',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '1 day 2 hours',
     },
     {
         name: 'Cuisine',
@@ -128,99 +103,65 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Dessert',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    // For Paalkova/Sweetened Mawa
+    { name: 'Milk (for Paalkova/Sweetened Mawa)', quantity: 0.25, unit: 'litre' },
+    { name: 'Sugar (for Paalkova)', quantity: 1, unit: 'tablespoon' },
+    // For Reduced Milk & Jigarthanda Ice Cream
+    { name: 'Milk (for Reduced Milk & Jigarthanda Ice Cream)', quantity: 1, unit: 'litre' },
+    { name: 'Sugar (for Reduced Milk)', quantity: 0.25, unit: 'cup' },
+    { name: 'Fresh cream', quantity: 0.25, unit: 'cup' },
+    // For Almond Gum
+    { name: 'Badam pisin (almond gum)', quantity: 0.5, unit: 'tablespoon' },
+    { name: 'Water', quantity: 0, unit: 'as needed for soaking Almond gum' },
+    // For Caramel Syrup
+    { name: 'Sugar (for Caramel Syrup)', quantity: 0.125, unit: 'cup' },
+    { name: 'Water (for Caramel Syrup)', quantity: 0.125, unit: 'cup' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Preparing Paalkova / Sweetened Milk Solids
+    { point: 'Boil 1/4 liter of milk, let it simmer until reduced by half. Add 1 tablespoon sugar, mix, and continue simmering until thickened. Transfer to a bowl and set aside.' },
+    // Preparing Reduced Milk
+    { point: 'In another pan, boil 1 liter of milk, let it simmer until reduced by half. Add 1/4 cup sugar, mix well, and keep simmering. Scrape and mix milk solids back into the milk.' },
+    // Preparing Caramel Syrup
+    { point: 'In a dry pan, melt 1/8 cup sugar until golden brown. Carefully add 1/8 cup water (it will splutter), stir until it becomes syrupy.' },
+    // Add Paalkova and Caramel Syrup to the Reduced Milk
+    { point: 'Mix well and simmer for an additional 2-5 minutes. Chill half of this mixture for serving, and proceed with the other half for the ice cream.' },
+    // Preparing Jigarthanda Ice Cream
+    { point: 'Add 1/4 cup fresh cream to the remaining reduced milk, mix, and freeze until half set. Blend until smooth, freeze until firm.' },
+    // Blooming Almond Gum
+    { point: 'Soak 1/2 tablespoon almond gum in water overnight until bloomed.' },
+    // Assembling Jigarthanda
+    { point: 'In a serving glass, layer badam pisin, nannari syrup, chilled plain milk, and reduced milk. Mix well, add a scoop of ice cream, and serve chilled.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'Garnish with malai (thickened milk) collected during the milk thickening process.' },
+    { point: 'Adjust the quantity of ingredients as per your taste preference when assembling.' },
+    { point: 'Vanilla ice cream can be used as a substitute for homemade Jigarthanda ice cream.' },
+    { point: 'Nannari syrup and badam pisin are key ingredients; try not to substitute them for an authentic taste.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

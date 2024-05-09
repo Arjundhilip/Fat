@@ -3,7 +3,7 @@ export const ariyalur = [
         id: 1,
         name: 'Thinai Arisi Pongal',
         href: '/dishes/signature/thinai_arisi_pongal',
-        imageSrc: '/dishes/signature/ariyalur/thinai-arisi-pongal/top.jpg',
+        imageSrc: '/dishes/signature/ariyalur/thinai_arisi_pongal/top.jpg',
         imageAlt: 'Thinai Arisi Pongal',
     },
 ];
@@ -70,7 +70,7 @@ export const dindigul = [
         id: 1,
         name: 'Palani Panchamirtham',
         href: '/dishes/signature/palani-panchamirtham',
-        imageSrc: '/dishes/signature/Dindigul/palani panchamirtham/top.jpg',
+        imageSrc: '/dishes/signature/Dindigul/palani_panchamirtham/top.jpg',
         imageAlt: 'Palani Panchamirtham',
     },
 ];
@@ -100,7 +100,7 @@ export const kancheepuram = [
         id: 1,
         name: 'Kancheepuram Idli',
         href: '/dishes/signature/kancheepuram-idli',
-        imageSrc: '/dishes/signature/Kanchipuram/kancheepuram-idli/top.jpg',
+        imageSrc: '/dishes/signature/Kancheepuram/kancheepuram-idli/top.jpg',
         imageAlt: 'Kanchipuram Idli',
     },
 ];
@@ -120,7 +120,7 @@ export const karur = [
         id: 1,
         name: 'Thengai Muttai',
         href: '/dishes/signature/thengai-muttai',
-        imageSrc: '/dishes/signature/Karur/thengai-muttai/top.jpg',
+        imageSrc: '/dishes/signature/Karur/thengaimuttai/top.jpg',
         imageAlt: 'Thengai Muttai',
     },
 ];
@@ -139,29 +139,29 @@ export const madurai = [
     {
         id: 1,
         name: 'Jigirthanda',
-        href: '/dishes/signature/jigirthanda',
-        imageSrc: '/dishes/signature/Madurai/jigirthanda/top.jpg',
+        href: '/dishes/signature/jigarthanda',
+        imageSrc: '/dishes/signature/Madurai/jigarthanda/top.jpg',
         imageAlt: 'Jigirthanda',
     },
     {
         id: 2,
         name: 'Karupatti Coffee',
-        href: '/dishes/signature/karupatti-coffee',
-        imageSrc: '/dishes/signature/Madurai/karupatti-coffee/top.jpg',
+        href: '/dishes/signature/karupatti_coffee',
+        imageSrc: '/dishes/signature/Madurai/karupatti_coffee/top.jpg',
         imageAlt: 'Karupatti Coffee',
     },
     {
         id: 3,
         name: 'Paruthi Paal',
-        href: '/dishes/signature/paruthi-paal',
-        imageSrc: '/dishes/signature/Madurai/paruthi-paal/top.jpg',
+        href: '/dishes/signature/paruthi_paal',
+        imageSrc: '/dishes/signature/Madurai/paruthipaal/top.png',
         imageAlt: 'Paruthi Paal',
     },
     {
         id: 4,
         name: 'Mutton Chukka',
         href: '/dishes/signature/mutton-chukka',
-        imageSrc: '/dishes/signature/Madurai/mutton-chukka/top.jpg',
+        imageSrc: '/dishes/signature/Madurai/muttonchukkavaruval/top.jpg',
         imageAlt: 'Mutton Chukka',
     },
 ];
@@ -181,7 +181,7 @@ export const nagapattinam = [
         id: 1,
         name: 'Kara Poli',
         href: '/dishes/signature/kara-poli',
-        imageSrc: '/dishes/signature/Nagapattinam/kara-poli/top.jpg',
+        imageSrc: '/dishes/signature/Nagapattinam/karapoli/top.jpg',
         imageAlt: 'Kara Poli',
     },
 ];
@@ -201,7 +201,7 @@ export const thenilgiris = [
         id: 1,
         name: 'Nilgiris-tea',
         href: '/dishes/signature/nilgiris-tea',
-        imageSrc: '/dishes/signature/Nilgiris/nilgiris-tea/top.jpg',
+        imageSrc: '/dishes/signature/The nilgiris/nilgirisoolongtea/top.jpg',
         imageAlt: 'Nilgiris-tea',
     },
 ];
@@ -221,14 +221,14 @@ export const pudukottai = [
         id: 1,
         name: 'Mangai Vellam Pachadi',
         href: '/dishes/signature/mangai-vellam-pachadi',
-        imageSrc: '/dishes/signature/pudukkottai/mangai-vellam-pachadi/top.jpg',
+        imageSrc: '/dishes/signature/Pudukottai/mangai-vellam-pachadi/top.jpg',
         imageAlt: 'Mangai Vellam Pachadi',
     },
     {
         id: 2,
         name: 'Vellai Paniyaram',
         href: '/dishes/signature/vellai-paniyaram',
-        imageSrc: '/dishes/signature/pudukkottai/vellai-paniyaram/top.jpg',
+        imageSrc: '/dishes/signature/Pudukottai/vellai-paniyaram/top.jpg',
         imageAlt: 'Vellai Paniyaram',
     },
 ];
@@ -284,6 +284,13 @@ export const sivagangai = [
         href: '/dishes/signature/kandarappam',
         imageSrc: '/dishes/signature/sivagangai/kandarappam/top.jpg',
         imageAlt: 'Kandarappam',
+    },
+    {
+        id: 4,
+        name: 'Seepuseedai',
+        href: '/dishes/signature/seepuseedai',
+        imageSrc: '/dishes/signature/sivagangai/seepuseedai/top.jpg',
+        imageAlt: 'seepuseedai',
     },
 ];
 
@@ -367,23 +374,23 @@ export const thoothukudi = [
 export const trichirappalli = [
     {
         id: 1,
-        name: 'Sambara Dosa',
+        name: 'Azhagar kovil Sambaradosa',
         href: '/dishes/signature/sambara-dosa',
-        imageSrc: '/dishes/signature/tiruchirappalli/sambaradosa/top.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagarkovilsambaradosa/top.jpg',
         imageAlt: 'Sambara Dosa',
     },
     {
         id: 2,
         name: 'Akkara Adisil',
         href: '/dishes/signature/akkara-adisil',
-        imageSrc: '/dishes/signature/tiruchirappalli/akkaraadisil/top.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkaraadisil/top.jpg',
         imageAlt: 'Akkara Adisil',
     },
     {
         id: 3,
         name: 'Thenkuzhal Murukku',
         href: '/dishes/signature/thenkuzhal-murukku',
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhalmurukku/top.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhalmurukku/top.jpg',
         imageAlt: 'Thenkuzhal Murukku',
     },
 ];
@@ -393,28 +400,28 @@ export const thirunelveli = [
         id: 1,
         name: 'Nellai Sodhi',
         href: '/dishes/signature/nellai-sodhi',
-        imageSrc: '/dishes/signature/tirunelveli/nellaisodhi/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/nellaisodhi/top.jpg',
         imageAlt: 'Nellai Sodhi',
     },
     {
         id: 2,
         name: 'Nellai Fish Curry',
         href: '/dishes/signature/nellai-fish-curry',
-        imageSrc: '/dishes/signature/tirunelveli/nellaifishcurry/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/nellaifishcurry/top.jpg',
         imageAlt: 'Nellai Fish Curry',
     },
     {
         id: 3,
         name: 'Ukkarai',
         href: '/dishes/signature/ukkarai',
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/top.jpg',
         imageAlt: 'Ukkarai',
     },
     {
         id: 4,
         name: 'Iruttukadai Halva',
         href: '/dishes/signature/iruttukadai-halva',
-        imageSrc: '/dishes/signature/tirunelveli/iruttukadaihalva/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadaihalva/top.jpg',
         imageAlt: 'Iruttukadai Halva',
     },
 ];
@@ -434,7 +441,7 @@ export const tiruppur = [
         id: 1,
         name: 'Chinthamani Chicken',
         href: '/dishes/signature/chinthamani-chicken',
-        imageSrc: '/dishes/signature/tiruppur/chinthamanichicken/top.jpg',
+        imageSrc: '/dishes/signature/Tiruppur/chinthamanichicken/top.jpg',
         imageAlt: 'Chinthamani Chicken',
     },
 ];
@@ -492,7 +499,7 @@ export const viluppuram = [
         id: 1,
         name: 'Mutta Mittai',
         href: '/dishes/signature/mutta-mittai',
-        imageSrc: '/dishes/signature/viluppuram/muttamittai/top.jpg',
+        imageSrc: '/dishes/signature/Villupuram/muttamittai/top.jpg',
         imageAlt: 'Mutta Mittai',
     },
 ];

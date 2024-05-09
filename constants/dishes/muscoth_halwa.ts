@@ -1,126 +1,100 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/top.jpg',
+        topic: 'Muscoth Halwa',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'மஸ்கோத் அல்வா',
+        topic: 'Muscoth Halwa',
+        des: `Muscoth Halwa is a decadent coconut-based dessert, known for its rich flavor and unique preparation. The halwa combines thick coconut milk with maida (all-purpose flour) and caramelized sugar to create a delightful, chewy treat. Cashews add a nutty crunch, and the slow cooking method results in a dessert with layers of flavor.`,
+        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Muscoth Halwa',
+        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/info.svg',
+        imageAlt: 'A rich and chewy coconut halwa made with caramelized sugar and all-purpose flour',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'All-Purpose Flour (Maida)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/maida.jpg',
+        imageAlt: 'All-Purpose Flour (Maida)',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Thick Coconut Milk',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/thick_coconut_milk.jpg',
+        imageAlt: 'Thick Coconut Milk',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Sugar',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/sugar.jpg',
+        imageAlt: 'Sugar',
     },
-]
+    // Add other ingredients as required
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Dessert',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Mudhalur',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Muscoth Halwa',
+        des: `Muscoth Halwa is a decadent coconut-based dessert, known for its rich flavor and unique preparation. The halwa combines thick coconut milk with maida (all-purpose flour) and caramelized sugar to create a delightful, chewy treat. Cashews add a nutty crunch, and the slow cooking method results in a dessert with layers of flavor.`,
+        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '15 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '1 hr',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '1 hr 15 mins',
     },
     {
         name: 'Cuisine',
@@ -128,99 +102,58 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Dessert',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'All-Purpose Flour (Maida)', quantity: 3, unit: 'tablespoons' },
+    { name: 'Thick Coconut Milk', quantity: 1, unit: 'cup' },
+    { name: 'Sugar', quantity: 0.25, unit: 'cup + 1 tbsp' },
+    { name: 'Chopped Cashews', quantity: 0.5, unit: 'tablespoon' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Prepare the Maida Milk
+    { point: 'In a bowl, mix the maida with water to make a stiff dough. Cover the dough with 2 cups of water and set it aside for 30 minutes.' },
+    { point: 'Knead the dough in the water to extract the "maida milk." Strain it and discard the leftover gluten.' },
+    { point: 'Cover the strained milk with a lid and set it aside for 2 hours. Discard the clear liquid at the top and use only the settled milk at the bottom.' },
+    // Combine and Cook
+    { point: 'In a pan, combine the maida milk, coconut milk, and 1/4 cup of sugar. Stir continuously until it thickens (about 10-15 minutes).' },
+    { point: 'In a separate saucepan, caramelize the remaining 1/4 cup of sugar until it reaches a deep amber color. Pour this into the halwa mixture.' },
+    { point: 'Continue cooking and stirring the mixture for 45 minutes to 1 hour, or until the oil separates from the coconut milk and the halwa is thick.' },
+    { point: 'Stir in the chopped cashews.' },
+    // Cool and Serve
+    { point: 'Transfer the halwa to a greased pan and let it cool for 4-5 hours.' },
+    { point: 'Slice and serve.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
+    { point: 'Make sure to stir continuously while cooking to avoid sticking or burning.' },
+    { point: 'Adjust the level of sweetness to your preference by adding more or less sugar.' },
+    { point: 'The halwa may require longer resting for the best texture.' },
+];
 
+export const nutrition = [
+    { point: 'Coconut milk provides healthy fats and antioxidants.' },
+    { point: 'Cashews offer protein and essential minerals.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

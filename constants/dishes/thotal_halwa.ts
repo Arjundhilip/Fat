@@ -1,126 +1,100 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/top.jpg',
+        topic: 'Thotal Halwa',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'தோட்டால் அல்வா',
+        topic: 'Thotal Halwa',
+        des: `Thotal Halwa hails from Kilakarai, a historic town known for its rich cultural heritage and architectural marvels, including one of the world’s oldest mosques. This traditional dessert stands out for its use of coconut milk and palm jaggery, diverging from the ghee-based confections commonly found in Tamil Nadu. The sweet encapsulates the essence of Kilakarai's culinary landscape, blending the robust flavors of palm jaggery with the creamy texture of coconut milk. Its making is an art form in itself, requiring persistence and physical effort, symbolizing the dedication and passion infused into local cuisine.`,
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Thotal Halwa',
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/info.svg',
+        imageAlt: 'A traditional Kilakarai dessert',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Grated Coconut',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/grated_coconut.jpg',
+        imageAlt: 'Grated Coconut',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Palm Jaggery',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/palm_jaggery.jpg',
+        imageAlt: 'Palm Jaggery',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Rice Flour',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/rice_flour.jpg',
+        imageAlt: 'Rice Flour',
     },
-]
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Dessert',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Ramanathapuram',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Thotal Halwa',
+        des: `Thotal Halwa hails from Kilakarai, a historic town known for its rich cultural heritage and architectural marvels, including one of the world’s oldest mosques. This traditional dessert stands out for its use of coconut milk and palm jaggery, diverging from the ghee-based confections commonly found in Tamil Nadu. The sweet encapsulates the essence of Kilakarai's culinary landscape, blending the robust flavors of palm jaggery with the creamy texture of coconut milk. Its making is an art form in itself, requiring persistence and physical effort, symbolizing the dedication and passion infused into local cuisine.`,
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/top.jpg',
     },
-
-]
+];
 
 export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '5 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '15 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '20 mins',
     },
     {
         name: 'Cuisine',
@@ -128,7 +102,7 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Dessert',
     },
     {
         name: 'Diet:',
@@ -136,78 +110,35 @@ export const time = [
     },
 ]
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Grated coconut', quantity: 4, unit: 'cups' },
+    { name: 'Palm jaggery', quantity: 250, unit: 'grams' },
+    { name: 'Rice flour', quantity: 1, unit: 'cup' },
+    { name: 'Salt', quantity: 0, unit: 'to taste' },
+    { name: 'Cashew nuts', quantity: 7, unit: 'chopped' },
+    { name: 'Cardamom powder', quantity: 0.5, unit: 'teaspoon' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Extract Coconut Milk
+    { point: 'Combine 1 2/3 cups of warm water with the grated coconut in a food processor and pulse to extract thick coconut milk. Strain through a sieve, pressing to extract as much milk as possible. Keep the thick milk aside.' },
+    // Prepare Thin Coconut Milk
+    { point: 'Add 2 cups of warm water to the leftover coconut chaff. Pulse again to extract thin coconut milk.' },
+    // Dissolve Palm Jaggery
+    { point: 'Mix the palm jaggery with the thin coconut milk in a heavy-bottomed vessel. Stir until the jaggery is completely dissolved. Strain this mixture to remove any impurities.' },
+    // Cook the Halwa
+    { point: 'Add rice flour to the jaggery-coconut milk mixture, ensuring there are no lumps. Season with a few pinches of salt. Cook over medium heat, stirring continuously until the mixture comes to a boil.' },
+    // Thicken the Halwa
+    { point: 'Once boiling, add the thick coconut milk. Continue to stir vigorously as the mixture thickens and starts to leave the sides of the vessel.' },
+    // Final Touches
+    { point: 'Stir in the cardamom powder and cashew nuts, mixing well.' },
+    // Serve
+    { point: 'Transfer the halwa to a dish and serve immediately for the best taste and texture.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'Ensure that the rice flour is evenly mixed into the jaggery-coconut milk mixture to avoid lumps.' },
+    { point: 'If desired, you can add additional cashew nuts or cardamom powder for more flavor.' },
 ];
 
 export const diet = [
@@ -220,7 +151,7 @@ export const diet = [
     {
         point: 'Anti-oxidant'
     },
-    
+
 ];
 
 export const reviews = { href: '#', average: 5, totalCount: 138 }

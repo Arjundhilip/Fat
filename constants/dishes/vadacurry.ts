@@ -65,35 +65,35 @@ export const list = [
         name: 'Decade:',
         role: 'Mid-20th century',
         imageUrl:
-            '/icons/climate.png',
+            '/icons/decade.png',
     },
 
     {
         name: 'City:',
         role: 'Chennai',
         imageUrl:
-            '/icons/climate.png',
+            '/icons/city.png',
     },
 
     {
         name: 'State:',
         role: 'Tamil Nadu',
         imageUrl:
-            '/icons/climate.png',
+            '/icons/state.png',
     },
 
     {
         name: 'Country:',
         role: 'India',
         imageUrl:
-            '/icons/climate.png',
+            '/icons/country.png',
     },
 
     {
         name: 'Language:',
         role: 'Tamil',
         imageUrl:
-            '/icons/climate.png',
+            '/icons/language.png',
     },
 ]
 

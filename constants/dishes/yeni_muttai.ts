@@ -1,126 +1,100 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/top.jpg',
+        topic: 'Yeni Muttai',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'ஏணி முட்டை',
+        topic: 'Yeni Muttai',
+        des: `Yeni Muttai, also known as Cheeni Mittai, is a traditional South Indian sweet made with a batter of rice and urad dal, deep-fried to crispy perfection, and soaked in a flavorful syrup made from palm jaggery (karupatti). The unique blend of cardamom and dry ginger powder in the syrup gives it a distinctive taste. This sweet is often enjoyed warm, offering a delightful balance of crispy texture and rich sweetness.`,
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Yeni Muttai',
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/info.svg',
+        imageAlt: 'A traditional sweet made with rice and urad dal, soaked in a palm jaggery syrup',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Rice (Idli Rice)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/idli_rice.jpg',
+        imageAlt: 'Rice (Idli Rice)',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Whole Urad Dal',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/whole_urad_dal.jpg',
+        imageAlt: 'Whole Urad Dal',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Palm Jaggery (Karupatti)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/palm_jaggery.jpg',
+        imageAlt: 'Palm Jaggery (Karupatti)',
     },
-]
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Dessert',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Thoothukudi',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Kadalai Mittai',
+        des: `Kadalai Mittai, a popular South Indian sweet, is made with roasted peanuts and jaggery. It's crunchy, nutty, and delicious, providing a nutritious treat that lasts for weeks. The combination of roasted peanuts and jaggery creates a perfect balance of sweetness and nuttiness.`,
+        imageSrc: '/dishes/signature/kovilpatti/kadalai_mittai/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '4 hrs 15 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '25 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '4 hrs 40 mins',
     },
     {
         name: 'Cuisine',
@@ -128,99 +102,61 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Dessert',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Rice (Idli Rice)', quantity: 0.25, unit: 'cup' },
+    { name: 'Whole Urad Dal', quantity: 1, unit: 'tablespoon' },
+    { name: 'Oil', quantity: 0, unit: 'for deep frying' },
+    { name: 'Palm Jaggery (Karupatti)', quantity: 0.5, unit: 'cup' },
+    { name: 'Cardamom Powder (Yelakai Podi)', quantity: 0.25, unit: 'teaspoon' },
+    { name: 'Dry Ginger Powder (Chukku Podi)', quantity: 0.25, unit: 'teaspoon' },
+    { name: 'Water', quantity: 0.25, unit: 'cup' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Soak and Grind
+    { point: 'In a bowl, mix rice and urad dal. Wash thoroughly and soak in water for 3 hours.' },
+    { point: 'Drain and blend the mixture with very little water until a thick, smooth paste forms. Some graininess is acceptable.' },
+    // Prepare the Syrup
+    { point: 'To make the palm jaggery syrup, melt the karupatti with water in a saucepan. Strain, return to the pan, and boil for 6-8 minutes until it thickens. Add cardamom and dry ginger powder, and keep the syrup warm.' },
+    // Fry the Mittai
+    { point: 'Heat oil for deep frying.' },
+    { point: 'Fill a piping bag with the batter and use a plain round tip to pipe round designs directly into the hot oil. Fry until crispy on both sides, then drain on paper towels.' },
+    // Soak in Syrup and Serve
+    { point: 'Dip each fried mittai into the warm karupatti syrup for 1-2 minutes per side.' },
+    { point: 'Drain and serve warm.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
+    { point: 'The batter should be thick; use minimal water while grinding.' },
+    { point: 'Fry the mittai until the crust is crispy so it stays firm even after soaking in the syrup.' },
+    { point: 'Limit the soaking time in the syrup to 2 minutes to avoid making the mittai soggy.' },
+    { point: 'Best enjoyed warm or hot.' },
+];
 
+export const nutrition = [
+    { point: 'Palm jaggery is rich in minerals and antioxidants.' },
+    { point: 'Rice and urad dal provide essential carbohydrates and protein.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

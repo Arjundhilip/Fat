@@ -2,7 +2,7 @@
 import React from 'react';
 import Accordion from "../components/Accordion";
 import Image from 'next/image';
-import { ariyalur,  chennai, coimbatore, cuddalore, dindigul, erode, kallakurichi, kancheepuram, kanniyakumari, karur, krishnagiri, madurai, mayiladuthurai, nagapattinam, namakkal, perambalur, pudukottai, ramanathapuram, ranipet, salem, sivagangai, tenkasi, theni, thenilgiris, thirunelveli, thiruvallur, thoothukudi, tiruppur, tiruvannamalai, trichirappalli, vellore, viluppuram, virudhunagar } from '@/constants/signaturedishes'
+import { ariyalur,  chennai, coimbatore, cuddalore, dindigul, erode, kallakurichi, kancheepuram, kanniyakumari, karur, krishnagiri, madurai, mayiladuthurai, nagapattinam, namakkal, perambalur, pudukottai, ramanathapuram, ranipet, salem, sivagangai, tenkasi, thanjavur, theni, thenilgiris, thirunelveli, thiruvallur, thoothukudi, tiruppur, tiruvannamalai, trichirappalli, vellore, viluppuram, virudhunagar } from '@/constants/signaturedishes'
 import Krishnagiri from '@/app/districts/krishnagiri/page';
 
 
@@ -168,7 +168,7 @@ const Signature = () => {
 
         </Accordion>
 
-        <Accordion title="Kallakurichi">
+        {/* <Accordion title="Kallakurichi">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
             {kallakurichi.map((product) => (
               <a key={product.id} href={product.href} className="group">
@@ -193,7 +193,7 @@ const Signature = () => {
             
           </div>
 
-        </Accordion>
+        </Accordion> */}
 
         <Accordion title="Kancheepram">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
@@ -272,32 +272,7 @@ const Signature = () => {
 
         </Accordion>
 
-        <Accordion title="Krishnagiri">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
-            {krishnagiri.map((product) => (
-              <a key={product.id} href={product.href} className="group">
-                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                  <Image
-                    src={product.imageSrc}
-                    alt={product.imageAlt}
-                    loading='lazy'
-
-
-
-
-                    width={1200}
-                    height={1200}
-                    className="w-full h-auto object-cover group-hover:opacity-75"
-                  />
-                </div>
-                <h3 className="bold-20 lg:bold-20 mt-4 text-center text-sm text-gray-700">{product.name}</h3>
-              </a>
-            ))}
-
-           
-          </div>
-
-        </Accordion>
+       
 
         <Accordion title="Madurai">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
@@ -326,32 +301,7 @@ const Signature = () => {
 
         </Accordion>
 
-        <Accordion title="Mayiladuthurai">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
-            {mayiladuthurai.map((product) => (
-              <a key={product.id} href={product.href} className="group">
-                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                  <Image
-                    src={product.imageSrc}
-                    alt={product.imageAlt}
-                    loading='lazy'
-
-
-
-
-                    width={1200}
-                    height={1200}
-                    className="w-full h-auto object-cover group-hover:opacity-75"
-                  />
-                </div>
-                <h3 className="bold-20 lg:bold-20 mt-4 text-center text-sm text-gray-700">{product.name}</h3>
-              </a>
-            ))}
-
-        
-          </div>
-
-        </Accordion>
+       
 
         <Accordion title="Nagapattinam">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
@@ -625,17 +575,13 @@ const Signature = () => {
 
         <Accordion title="Thanjavur">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
-            {chennai.map((product) => (
+            {thanjavur.map((product) => (
               <a key={product.id} href={product.href} className="group">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                   <Image
                     src={product.imageSrc}
                     alt={product.imageAlt}
                     loading='lazy'
-
-
-
-
                     width={1200}
                     height={1200}
                     className="w-full h-auto object-cover group-hover:opacity-75"
@@ -645,25 +591,7 @@ const Signature = () => {
               </a>
             ))}
 
-            {chennai.map((product) => (
-              <a key={product.id} href={product.href} className="group">
-                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                  <Image
-                    src={product.imageSrc}
-                    alt={product.imageAlt}
-                    loading='lazy'
-
-
-
-
-                    width={1200}
-                    height={1200}
-                    className="w-full h-auto object-cover group-hover:opacity-75"
-                  />
-                </div>
-                <h3 className="bold-20 lg:bold-20 mt-4 text-center text-sm text-gray-700">{product.name}</h3>
-              </a>
-            ))}
+            
           </div>
 
         </Accordion>

@@ -1,226 +1,206 @@
-
 export const top = [
-    {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
-    },
-
-]
+  {
+    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/top.jpg",
+    topic: "Kozhi Vellai Biriyani",
+  },
+];
 
 export const intro = [
-    {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
-    },
-
-]
+  {
+    tamilheading: "கோழி வெள்ளை பிரியாணி",
+    topic: "Kozhi Vellai Biriyani",
+    des: `Kongunadu Kozhi Vellai Biriyani is a culinary gem from the Kongunadu region of Tamil Nadu, known for its aromatic and flavorful dishes. This unique biriyani stands out for its delicate use of green chillies and the rich, creamy texture imparted by coconut milk. Unlike the more common, robustly spiced biriyanis, this version celebrates the subtle yet profound flavors of ground spices and the distinctive aroma of seeraga samba rice. Traditionally cooked in a clay pot, this biriyani is a testament to the art of balancing flavors and textures, creating a dish that is both rich and subtle, spicy and soothing.`,
+    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/flag.jpg",
+  },
+];
 
 export const info = [
-    {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-    },
-]
-
+  {
+    name: "Kozhi Vellai Biriyani",
+    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/info.svg",
+    imageAlt: "A unique South Indian biriyani",
+  },
+];
 
 export const ingredient_pic = [
-    {
-        id: 1,
-        name: 'Onion',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
-    },
-    {
-        id: 2,
-        name: 'Tomato',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
-    },
-    {
-        id: 3,
-        name: 'Channa Dal',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
-    },
-]
+  {
+    id: 1,
+    name: "Seeraga samba rice",
+    href: "#",
+    imageSrc:"/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/seeraga_samba_rice.jpg",
+    imageAlt: "Seeraga Samba Rice",
+  },
+  {
+    id: 2,
+    name: "Chicken thigh meat",
+    href: "#",
+    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/chicken.jpg",
+    imageAlt: "Chicken Thigh Meat",
+  },
+  {
+    id: 3,
+    name: "Thick coconut milk",
+    href: "#",
+    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/thick_coconut_milk.jpg",
+    imageAlt: "Thick Coconut Milk",
+  },
+  // Add other ingredients as needed
+];
 
 export const list = [
-    {
-        name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'State:',
-        role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'Country:',
-        role: 'India',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'Language:',
-        role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
-    },
-]
+  {
+    name: "Type of Dish:",
+    role: "Main Course",
+    imageUrl: "/icons/dish.png",
+  },
+  {
+    name: "City:",
+    role: "coimbatore",
+    imageUrl: "/icons/city.png",
+  },
+  {
+    name: "State:",
+    role: "Tamil Nadu",
+    imageUrl: "/icons/state.png",
+  },
+  {
+    name: "Country:",
+    role: "India",
+    imageUrl: "/icons/country.png",
+  },
+  {
+    name: "Language:",
+    role: "Tamil",
+    imageUrl: "/icons/language.png",
+  },
+];
 
 
 export const rcintro = [
-    {
+  {
 
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
+    topic: "Kozhi Vellai Biriyani",
+    des: `Kongunadu Kozhi Vellai Biriyani is a culinary gem from the Kongunadu region of Tamil Nadu, known for its aromatic and flavorful dishes. This unique biriyani stands out for its delicate use of green chillies and the rich, creamy texture imparted by coconut milk. Unlike the more common, robustly spiced biriyanis, this version celebrates the subtle yet profound flavors of ground spices and the distinctive aroma of seeraga samba rice. Traditionally cooked in a clay pot, this biriyani is a testament to the art of balancing flavors and textures, creating a dish that is both rich and subtle, spicy and soothing.`,
+    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/flag.jpg",
 
-    },
+  },
 
 ]
 
 export const time = [
-    {
-        name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
-    },
-    {
-        name: 'Cook Time:',
-        role: '40 minutes',
-    },
-    {
-        name: 'Total Time:',
-        role: '6 hours 40 minutes',
-    },
-    {
-        name: 'Cuisine',
-        role: 'South Indian',
-    },
-    {
-        name: 'Course:',
-        role: 'Breakfast/Side Dish',
-    },
-    {
-        name: 'Diet:',
-        role: ' Vegetarian',
-    },
+  {
+    name: 'Prep Time:',
+    role: '20 mins',
+  },
+  {
+    name: 'Cook Time:',
+    role: '40 mins',
+  },
+  {
+    name: 'Total Time:',
+    role: '60 mins',
+  },
+  {
+    name: 'Cuisine',
+    role: 'South Indian',
+  },
+  {
+    name: 'Course:',
+    role: 'Main Course',
+  },
+  {
+    name: 'Diet:',
+    role: ' Non-Vegetarian',
+  },
 ]
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+  // For the Biryani Masala Paste
+  { name: "Sambar onions (shallots)", quantity: 1, unit: "tablespoon" },
+  { name: "Garlic pod", quantity: 0.25, unit: "" },
+  { name: "Ginger", quantity: 0.25, unit: "inch piece, roughly chopped" },
+  { name: "Green chillies", quantity: 2, unit: "" },
+  { name: "Fennel seeds", quantity: 0.25, unit: "teaspoon" },
+  { name: "Cinnamon (cassia)", quantity: 0.25, unit: "inch piece" },
+  { name: "Star anise", quantity: 0.125, unit: "" },
+  { name: "Clove", quantity: 1, unit: "" },
+  { name: "Cardamom", quantity: 0.5, unit: "" },
+  { name: "Kalpasi", quantity: 0, unit: "a tiny pinch" },
+  { name: "Water", quantity: 0.5, unit: "tablespoon" },
+  // Other Ingredients
+  { name: "Peanut oil", quantity: 0.5, unit: "tablespoon" },
+  { name: "Ghee", quantity: 0.5, unit: "tablespoon" },
+  { name: "Bay leaf", quantity: 0.5, unit: "" },
+  { name: "Maratti moggu", quantity: 0.5, unit: "" },
+  { name: "Cinnamon (cassia)", quantity: 0.25, unit: "inch piece" },
+  { name: "Onion, finely sliced", quantity: 1, unit: "tablespoon" },
+  { name: "Tomato", quantity: 0.5, unit: "" },
+  { name: "Salt", quantity: 0.5, unit: "teaspoon" },
+  { name: "Green chillies", quantity: 2, unit: "" },
+  { name: "Coriander leaves, chopped", quantity: 1, unit: "tablespoon" },
+  { name: "Mint leaves, chopped", quantity: 1, unit: "tablespoon" },
+  { name: "Lime, juiced", quantity: 0.25, unit: "" },
+  { name: "Chicken thigh meat", quantity: 187.5, unit: "grams" },
+  { name: "Seeraga samba rice", quantity: 0.5, unit: "cup" },
+  { name: "Thick coconut milk", quantity: 2, unit: "tablespoons" },
+  { name: "Water", quantity: 0.375, unit: "cup" },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+  {
+    point:
+      "In a mixie jar, combine sambar onions, garlic, ginger, green chillies, fennel seeds, cinnamon, star anise, clove, cardamom, kalpasi, and water. Grind to a smooth, fine paste.",
+  },
+  {
+    point:
+      "Heat oil and ghee in a pressure cooker. Add bay leaf, maratti moggu, cinnamon, and onions. Sauté until onions are soft.",
+  },
+  {
+    point:
+      "Stir in tomatoes, ground paste, and salt. Cover and cook on low until tomatoes turn mushy.",
+  },
+  {
+    point:
+      "Add chicken and 1/8 cup water. Mix well, cover, and cook for about 2 whistles on medium flame.",
+  },
+  { point: "Meanwhile, wash and soak the rice for 20 minutes." },
+  {
+    point:
+      "Once the pressure settles, add coconut milk and 1/4 cup water to the cooker, adjusting based on the gravy left from cooking the chicken.",
+  },
+  {
+    point:
+      "Add whole green chillies, coriander, and mint leaves. Bring to a boil.",
+  },
+  {
+    point:
+      "Mix in soaked, drained rice and lime juice. Place a cut banana leaf on top (optional) for aroma. Cover and cook for 2 whistles. Let the pressure release naturally.",
+  },
+  { point: "Remove the banana leaf and fluff up the rice gently." },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+  {
+    point:
+      "The use of whole green chillies adds flavor without significant heat. Adjust the quantity based on your spice tolerance.",
+  },
+  {
+    point:
+      "The banana leaf is optional but adds a unique aroma to the biriyani.",
+  },
 ];
 
 export const diet = [
-    {
-        point: 'Protein rich'
-    },
-    {
-        point: 'High Fibre'
-    },
-    {
-        point: 'Anti-oxidant'
-    },
-    
+  {
+    point: 'Protein rich'
+  },
+  {
+    point: 'High Fibre'
+  },
+  {
+    point: 'Anti-oxidant'
+  },
+
 ];
 
 export const reviews = { href: '#', average: 5, totalCount: 138 }

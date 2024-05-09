@@ -1,126 +1,101 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/top.jpg',
+        topic: 'Kara Poli',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'கார பொளி',
+        topic: 'Kara Poli',
+        des: `Kara Poli, a savory twist on the classic South Indian 'Poli', intertwines the traditional with the inventive. Originally, Polis are sweet flatbreads stuffed with a lentil and jaggery filling, savored during festive occasions across South India. Kara Poli, however, ventures into the realm of savory, incorporating a spicy potato and pea filling, seasoned with a medley of Indian spices. This innovative variant transforms the Poli from a dessert into a versatile snack or meal, perfect for any time of the day. It's a testament to the dynamic nature of Indian cuisine, where even the most traditional recipes are open to reinterpretation and adaptation, reflecting the diversity and creativity inherent in Indian culinary practices.`,
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Kara Poli',
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/info.svg',
+        imageAlt: 'A savory South Indian flatbread',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Plain Flour (Maida)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/plain_flour.jpg',
+        imageAlt: 'Plain Flour (Maida)',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Potato',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/potato.jpg',
+        imageAlt: 'Boiled and mashed potato',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Green Peas',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/green_peas.jpg',
+        imageAlt: 'Green Peas',
     },
-]
+    // Add other ingredients as required
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Snacks',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'nagapattinam',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+      
+        topic: 'Kara Poli',
+        des: `Kara Poli, a savory twist on the classic South Indian 'Poli', intertwines the traditional with the inventive. Originally, Polis are sweet flatbreads stuffed with a lentil and jaggery filling, savored during festive occasions across South India. Kara Poli, however, ventures into the realm of savory, incorporating a spicy potato and pea filling, seasoned with a medley of Indian spices. This innovative variant transforms the Poli from a dessert into a versatile snack or meal, perfect for any time of the day. It's a testament to the dynamic nature of Indian cuisine, where even the most traditional recipes are open to reinterpretation and adaptation, reflecting the diversity and creativity inherent in Indian culinary practices.`,
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '45 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '45 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '3 hours 30 mins',
     },
     {
         name: 'Cuisine',
@@ -128,99 +103,65 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Snacks',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Plain Flour (Maida)', quantity: 1.5, unit: 'cups' },
+    { name: 'Turmeric Powder (for dough)', quantity: 0.5, unit: 'teaspoon' },
+    { name: 'Salt (for dough)', quantity: 0.5, unit: 'teaspoon' },
+    { name: 'Water', quantity: 0, unit: 'to knead the dough' },
+    { name: 'Oil (for the dough)', quantity: 2, unit: 'teaspoons' },
+    { name: 'Potato (boiled and mashed)', quantity: 1, unit: '' },
+    { name: 'Green Peas', quantity: 0.25, unit: 'cup' },
+    { name: 'Oil (for masala)', quantity: 3, unit: 'teaspoons' },
+    { name: 'Mustard Seeds', quantity: 0.5, unit: 'teaspoon' },
+    { name: 'Curry Leaves', quantity: 0, unit: 'a few' },
+    { name: 'Onions (finely chopped)', quantity: 2, unit: '' },
+    { name: 'Cashew Nut Bits', quantity: 0.5, unit: 'tablespoon' },
+    { name: 'Turmeric Powder (for masala)', quantity: 0.5, unit: 'teaspoon' },
+    { name: 'Sambar Powder', quantity: 1.5, unit: 'teaspoons' },
+    { name: 'Garam Masala', quantity: 1, unit: 'teaspoon' },
+    { name: 'Coriander Leaves (chopped)', quantity: 0.5, unit: 'cup' },
+    { name: 'Ghee', quantity: 0, unit: 'to cook Polis' },
+    { name: 'Idli Milagai Podi', quantity: 2, unit: 'tablespoons' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Dough Preparation
+    { point: 'In a large bowl, combine 1.5 cups of plain flour, 0.5 tsp turmeric powder, and salt. Gradually add water and knead into a soft dough. Incorporate 2 tsp of oil, cover, and let it rest for 2 hours for softer polis.' },
+    // Potato Masala Preparation
+    { point: 'Heat 2 tsp oil in a pan, add mustard seeds and curry leaves. Once they crackle, add chopped onions with a pinch of salt and sauté until translucent.' },
+    { point: 'Add mashed potato, green peas, turmeric powder, sambar powder, garam masala, cashew bits, and salt to taste. Cook for 2 minutes, then mix in coriander leaves. Allow to cool completely.' },
+    // Assembling and Cooking Polis
+    { point: 'Make lemon-sized balls from the potato mixture. Similarly, prepare equal-sized balls from the rested dough.' },
+    { point: 'On a greased parchment paper, flatten a dough ball, place a potato ball in the center, and encase it with the dough. Roll it out gently between two greased papers to avoid sticking.' },
+    { point: 'Cook the rolled Polis on a greased hot pan until both sides are done. Smear ghee and sprinkle Idli Milagai Podi and some coriander leaves on each side for added flavor.' },
+    { point: 'Repeat the process for the remaining dough and potato mixture.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'The longer the dough rests, the softer the Polis will be.' },
+    { point: 'Ensure the potato masala is completely cooled before stuffing to prevent the dough from becoming soggy.' },
+    { point: 'Do not omit the Idli Milagai Podi, as it significantly enhances the flavor of Kara Poli, giving it its distinctive taste.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

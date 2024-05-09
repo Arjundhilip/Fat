@@ -1,126 +1,93 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/top.jpg',
+        topic: 'Vella Paniyaram',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'வெள்ள பணியாரம்',
+        topic: 'Vella Paniyaram',
+        des: `Vella Paniyaram is a delightful and traditional snack that hails from the Tamil Nadu region of India. Characterized by its light and fluffy texture, this dish is made from a simple batter of rice and urad dal, subtly sweetened with a hint of sugar. This delectable snack is a testament to the simplicity and elegance of South Indian cuisine, offering a unique taste that is both comforting and satisfying. Vella Paniyaram is often served during festivals and family gatherings, making it a cherished part of culinary traditions in Tamil Nadu.`,
+        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Vella Paniyaram',
+        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/info.svg',
+        imageAlt: 'A traditional sweet snack from Tamil Nadu',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Raw Rice',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/raw_rice.jpg',
+        imageAlt: 'Raw Rice',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Urad Dal',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/urad_dal.jpg',
+        imageAlt: 'Urad Dal',
     },
-    {
-        id: 3,
-        name: 'Channa Dal',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
-    },
-]
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Main Course',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Pudukottai',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Vella Paniyaram',
+        des: `Vella Paniyaram is a delightful and traditional snack that hails from the Tamil Nadu region of India. Characterized by its light and fluffy texture, this dish is made from a simple batter of rice and urad dal, subtly sweetened with a hint of sugar. This delectable snack is a testament to the simplicity and elegance of South Indian cuisine, offering a unique taste that is both comforting and satisfying. Vella Paniyaram is often served during festivals and family gatherings, making it a cherished part of culinary traditions in Tamil Nadu.`,
+        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '2 hours',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '30 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '2 hours 30 minutes',
     },
     {
         name: 'Cuisine',
@@ -128,99 +95,53 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Main Course',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+
+export const ingredients = [
+    { name: 'Raw rice', quantity: 0.1, unit: 'cup, levelled' },
+    { name: 'Urad dal', quantity: 0.2, unit: 'tablespoon, heaped on raw rice' },
+    { name: 'Sugar', quantity: 0.05, unit: 'teaspoon' },
+    { name: 'Salt', quantity: 0, unit: 'to taste' },
+    { name: 'Water', quantity: 0, unit: 'as needed' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Prepare the Batter
+    { point: 'In a 1-cup measure, level the raw rice well. Add urad dal on top until it forms a heap. This is the required measurement. Soak the mixture in a bowl for 2 hours, then rinse well and drain.' },
+    // Grind the Mixture
+    { point: 'Transfer the soaked rice and dal to a mixer. Add water little by little and grind to a fine paste. Transfer this paste to a bowl.' },
+    // Adjust Consistency
+    { point: 'To the ground paste, add salt and sugar. Add water as needed to achieve the consistency of dosa batter.' },
+    // Cook the Paniyaram
+    { point: 'Heat oil in a kadai (wok). Using a deep curved ladle, pour a ladleful of batter into the hot oil. Allow it to puff up and rise to the surface.' },
+    // Serve
+    { point: 'Once the Paniyaram is golden and fluffy, flip it over to cook evenly on both sides. Drain and serve hot.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'Make sure to keep the oil at the right temperature so the Paniyaram will puff up properly.' },
+    { point: 'You can add more sugar if you prefer a sweeter version.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }
+  

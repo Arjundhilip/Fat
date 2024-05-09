@@ -1,126 +1,101 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/kanchipuram/kanchipuram_idli/top.jpg',
+        topic: 'Kanchipuram Idli',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'காஞ்சிபுரம் இட்லி',
+        topic: 'Kanchipuram Idli',
+        des: `Kanchipuram Idli takes its name from the ancient city of Kanchipuram in Tamil Nadu, known as the city of a thousand temples. This idli variant is steeped in tradition and is much revered in South Indian cuisine for its unique flavors and the ritualistic way it's prepared, often as an offering in temples. The recipe is distinguished by its seasoning with ginger, peppercorns, cumin, and the aromatic ghee-infused tempering, which imparts a divine taste to the idlis. Wrapped and steamed in banana leaves, these idlis carry a hint of the leaf's fragrance, making them a special variant of the otherwise simple South Indian staple.`,
+        imageSrc: '/dishes/signature/kanchipuram/kanchipuram_idli/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Kanchipuram Idli',
+        imageSrc: '/dishes/signature/kanchipuram/kanchipuram_idli/info.svg',
+        imageAlt: 'A traditional South Indian temple idli',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Rice',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/kanchipuram/kanchipuram_idli/rice.jpg',
+        imageAlt: 'Regular and parboiled rice',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Urad dal',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/kanchipuram/kanchipuram_idli/urad_dal.jpg',
+        imageAlt: 'Urad Dal',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Chana dal',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/kanchipuram/kanchipuram_idli/chana_dal.jpg',
+        imageAlt: 'Chana Dal',
     },
-]
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Main Course',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'kanchipuram',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
 
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Kanchipuram Idli',
+        des: `Kanchipuram Idli takes its name from the ancient city of Kanchipuram in Tamil Nadu, known as the city of a thousand temples. This idli variant is steeped in tradition and is much revered in South Indian cuisine for its unique flavors and the ritualistic way it's prepared, often as an offering in temples. The recipe is distinguished by its seasoning with ginger, peppercorns, cumin, and the aromatic ghee-infused tempering, which imparts a divine taste to the idlis. Wrapped and steamed in banana leaves, these idlis carry a hint of the leaf's fragrance, making them a special variant of the otherwise simple South Indian staple.`,
+        imageSrc: '/dishes/signature/kanchipuram/kanchipuram_idli/top.jpg',
     },
-
-]
+];
 
 export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '9 Hours (Includes soaking and fermenting time)',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '20 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '9 Hours 20 mins',
     },
     {
         name: 'Cuisine',
@@ -128,86 +103,49 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Main Course',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Regular rice', quantity: 40, unit: 'grams' },
+    { name: 'Parboiled rice or idli rice', quantity: 40, unit: 'grams' },
+    { name: 'Water', quantity: 25, unit: 'ml for soaking rice, 25 ml for soaking dal' },
+    { name: 'Urad dal', quantity: 40, unit: 'grams' },
+    { name: 'Fenugreek seeds (methi seeds)', quantity: 3 - 4, unit: '' },
+    { name: 'Water', quantity: 12.5, unit: 'ml for grinding dal, 12.5 ml for grinding rice' },
+    { name: 'Chana dal', quantity: 0.25, unit: 'tablespoon' },
+    { name: 'Water', quantity: 6.25, unit: 'ml for soaking chana dal' },
+    { name: 'Ginger powder', quantity: 0, unit: 'a pinch' },
+    { name: 'Salt', quantity: 0, unit: 'as required' },
+    { name: 'Ghee or sesame oil', quantity: 0.25, unit: 'tablespoon' },
+    { name: 'Black pepper', quantity: 0, unit: 'a pinch' },
+    { name: 'Cumin seeds', quantity: 0, unit: 'a pinch' },
+    { name: 'Cashews', quantity: 1 - 2, unit: 'chopped (optional)' },
+    { name: 'Curry leaves', quantity: 1 - 2, unit: 'chopped' },
+    { name: 'Asafoetida (hing)', quantity: 0, unit: 'a small pinch' },
+    { name: 'Water', quantity: 0.5, unit: 'cup for steaming' },
+    { name: 'Oil', quantity: 0, unit: 'some for greasing idli moulds or banana leaves' },
+    { name: 'Banana leaf', quantity: 0, unit: 'a small piece, optional' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    { point: 'Soak the Grains: Combine regular and parboiled rice in a bowl, rinse, and soak in 25 ml water for 4-5 hours. In another bowl, soak urad dal and fenugreek seeds in 25 ml water for the same duration.' },
+    { point: 'Grind the Batter: Drain the urad dal and blend with 12.5 ml fresh water to a smooth consistency. Repeat with rice, using another 12.5 ml of water, to a semi-fine consistency. Mix both batters and let ferment for 8-9 hours or overnight.' },
+    { point: 'Preparation Before Steaming: Soak chana dal in hot water for 30 minutes. Optionally, cut banana leaves to fit idli moulds and grease with oil. Coarsely crush black pepper and cumin seeds.' },
+    { point: 'Mixing the Batter: Drain chana dal and add to the fermented batter with ginger powder and salt. Mix well.' },
+    { point: 'Tempering: Heat ghee in a pan, add crushed pepper, cumin, cashews, and curry leaves until fragrant. Add asafoetida, turn off the heat, and mix this tempering into the batter.' },
+    { point: 'Steaming the Idlis: Fill idli moulds or prepared bowls with the batter. Steam in a preheated steamer or pressure cooker (without the whistle) for 15-20 minutes or until a skewer inserted comes out clean.' },
+    { point: 'Serving: Remove idlis, discard banana leaves if used, and serve warm with coconut chutney and sambar.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'The unique flavor of these idlis comes from the tempering and the optional use of banana leaves for steaming.' },
+    { point: 'Adjust the quantity of green chillies based on your preference for spice.' },
 ];
 
 export const diet = [
@@ -220,7 +158,7 @@ export const diet = [
     {
         point: 'Anti-oxidant'
     },
-    
+
 ];
 
 export const reviews = { href: '#', average: 5, totalCount: 138 }

@@ -1,226 +1,179 @@
-
 export const top = [
-    {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
-    },
-
-]
+  {
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/top.jpg",
+    topic: "Cuddalore Fish Curry",
+  },
+];
 
 export const intro = [
-    {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
-    },
-
-]
+  {
+    tamilheading: "கடலூர் மீன் கறி",
+    topic: "Cuddalore Fish Curry",
+    des: `This fish curry is a culinary staple in the coastal district of Cuddalore, where the sea's bounty meets the land's rich culinary traditions. Renowned for its aromatic blend of spices and the unique addition of 'Thalippu Vengaya Vadagam'—a sun-dried seasoning ball made of shallots and spices—this curry is a testament to the ingenuity of Tamil Nadu's coastal cuisine. The use of Pomfret, known locally as 'Vavaal Meen,' and the rich, tangy tamarind base complement each other perfectly, creating a harmonious symphony of flavors. Each household in Cuddalore may have its own version of this dish, but the essence lies in the freshly ground coconut-onion paste and the vadagam that elevates the curry to a whole new level of deliciousness.`,
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/flag.jpg",
+  },
+];
 
 export const info = [
-    {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-    },
-]
-
+  {
+    name: "Cuddalore Fish Curry",
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/info.svg",
+    imageAlt: "A beloved coastal fish curry",
+  },
+];
 
 export const ingredient_pic = [
-    {
-        id: 1,
-        name: 'Onion',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
-    },
-    {
-        id: 2,
-        name: 'Tomato',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
-    },
-    {
-        id: 3,
-        name: 'Channa Dal',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
-    },
-]
+  {
+    id: 1,
+    name: "Fish (Pomfret preferred)",
+    href: "#",
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/fish.jpg",
+    imageAlt: "Piece of marinated fish",
+  },
+  {
+    id: 2,
+    name: "Vadagam",
+    href: "#",
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/vadagam.jpg",
+    imageAlt: "Thalippu Vengaya Vadagam",
+  },
+  {
+    id: 3,
+    name: "Freshly grated coconut",
+    href: "#",
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/coconut.jpg",
+    imageAlt: "Freshly grated coconut",
+  },
+  // Add other ingredients as needed
+];
 
 export const list = [
-    {
-        name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'State:',
-        role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'Country:',
-        role: 'India',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
-    {
-        name: 'Language:',
-        role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
-    },
-]
-
+  {
+    name: "Type of Dish:",
+    role: "Main Course",
+    imageUrl: "/icons/dish.png",
+  },
+  {
+    name: "City:",
+    role: "cuddalore",
+    imageUrl: "/icons/city.png",
+  },
+  {
+    name: "State:",
+    role: "Tamil Nadu",
+    imageUrl: "/icons/state.png",
+  },
+  {
+    name: "Country:",
+    role: "India",
+    imageUrl: "/icons/country.png",
+  },
+  {
+    name: "Language:",
+    role: "Tamil",
+    imageUrl: "/icons/language.png",
+  },
+];
 
 export const rcintro = [
-    {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
-    },
-
-]
+  {
+    
+    topic: "Cuddalore Fish Curry",
+    des: `This fish curry is a culinary staple in the coastal district of Cuddalore, where the sea's bounty meets the land's rich culinary traditions. Renowned for its aromatic blend of spices and the unique addition of 'Thalippu Vengaya Vadagam'—a sun-dried seasoning ball made of shallots and spices—this curry is a testament to the ingenuity of Tamil Nadu's coastal cuisine. The use of Pomfret, known locally as 'Vavaal Meen,' and the rich, tangy tamarind base complement each other perfectly, creating a harmonious symphony of flavors. Each household in Cuddalore may have its own version of this dish, but the essence lies in the freshly ground coconut-onion paste and the vadagam that elevates the curry to a whole new level of deliciousness.`,
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/top.jpg",
+  },
+];
 
 export const time = [
-    {
-        name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
-    },
-    {
-        name: 'Cook Time:',
-        role: '40 minutes',
-    },
-    {
-        name: 'Total Time:',
-        role: '6 hours 40 minutes',
-    },
-    {
-        name: 'Cuisine',
-        role: 'South Indian',
-    },
-    {
-        name: 'Course:',
-        role: 'Breakfast/Side Dish',
-    },
-    {
-        name: 'Diet:',
-        role: ' Vegetarian',
-    },
+  {
+      name: 'Prep Time:',
+      role: '15 mins',
+  },
+  {
+      name: 'Cook Time:',
+      role: '30 mins',
+  },
+  {
+      name: 'Total Time:',
+      role: '45 mins',
+  },
+  {
+      name: 'Cuisine',
+      role: 'South Indian',
+  },
+  {
+      name: 'Course:',
+      role: 'Main Course',
+  },
+  {
+      name: 'Diet:',
+      role: 'Non-Vegetarian',
+  },
 ]
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+  { name: "Fish (Pomfret preferred)", quantity: 1, unit: "piece, cleaned and marinated", },
+  { name: "Turmeric powder", quantity: 0.25, unit: "teaspoon" },
+  { name: "Sambar powder", quantity: 2, unit: "teaspoons" },
+  { name: "Tamarind", quantity: 0, unit: "size of a small lemon, for juice" },
+  { name: "Tomato", quantity: 0.5, unit: "finely chopped" },
+  { name: "Onion", quantity: 0.25, unit: "finely chopped" },
+  { name: "Vadagam", quantity: 1, unit: "teaspoon" },
+  { name: "Garlic pods", quantity: 4, unit: "" },
+  { name: "Freshly grated coconut", quantity: 0.25, unit: "cup" },
+  { name: "Oil", quantity: 0, unit: "as needed" },
+  { name: "Salt", quantity: 0, unit: "to taste" },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+  {
+    point:
+      "Prepare the tamarind juice by soaking the tamarind in 1 cup of water to get a thick extract. This is crucial as the flavor of the curry hinges on the richness of the tamarind juice.",
+  },
+  {
+    point:
+      "In a kadai (wok), lightly fry the marinated fish piece in a bit of oil. Remove and set aside after a few seconds to avoid overcooking.",
+  },
+  {
+    point:
+      "In the same kadai, heat a little more oil and add the vadagam. Once it starts to crackle and release its aromas, add the garlic pods. Fry until golden brown.",
+  },
+  {
+    point: "Add the chopped tomatoes and sauté until they turn soft and pulpy.",
+  },
+  {
+    point:
+      "Pour in the tamarind juice, then add the turmeric and sambar powders. Bring to a boil and let simmer until the raw smell of the sambar powder dissipates.",
+  },
+  {
+    point:
+      "Gently place the fish piece back into the kadai. Let it cook thoroughly in the curry.",
+  },
+  {
+    point:
+      "Stir in the coconut-onion paste and continue to boil until the oil begins to separate from the mixture, indicating that the curry is ready.",
+  },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+  {
+    point:
+      "The fish should be marinated for at least 15 minutes before cooking to enhance its flavor.",
+  },
 ];
 
+
 export const diet = [
-    {
-        point: 'Protein rich'
-    },
-    {
-        point: 'High Fibre'
-    },
-    {
-        point: 'Anti-oxidant'
-    },
-    
+  {
+    point: 'Protein rich'
+  },
+  {
+    point: 'High Fibre'
+  },
+  {
+    point: 'Anti-oxidant'
+  },
+
 ];
 
 export const reviews = { href: '#', average: 5, totalCount: 138 }

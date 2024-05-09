@@ -1,126 +1,94 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/senkottai/border_parotta/top.jpg',
+        topic: 'Border Parotta',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'போர்டர் பரோட்டா',
+        topic: 'Border Parotta',
+        des: `The Senkottai Border Parotta is a renowned layered flatbread known for its distinctive thin and crispy borders. This soft and flaky bread is made with maida (all-purpose flour) and layered using a specific folding technique. It's a popular dinner item served with curries like salna or kurma, and is a culinary delight native to Tamil Nadu.`,
+        imageSrc: '/dishes/signature/senkottai/border_parotta/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Border Parotta',
+        imageSrc: '/dishes/signature/senkottai/border_parotta/info.svg',
+        imageAlt: 'A renowned Tamil Nadu layered flatbread',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Maida',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/senkottai/border_parotta/maida.jpg',
+        imageAlt: 'Maida (All-Purpose Flour)',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Milk',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/senkottai/border_parotta/milk.jpg',
+        imageAlt: 'Milk',
     },
-    {
-        id: 3,
-        name: 'Channa Dal',
-        href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
-    },
-]
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Main Course',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Senkottai',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+      
+        topic: 'Border Parotta',
+        des: `The Senkottai Border Parotta is a renowned layered flatbread known for its distinctive thin and crispy borders. This soft and flaky bread is made with maida (all-purpose flour) and layered using a specific folding technique. It's a popular dinner item served with curries like salna or kurma, and is a culinary delight native to Tamil Nadu.`,
+        imageSrc: '/dishes/signature/senkottai/border_parotta/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '40 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '20 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '1 hr',
     },
     {
         name: 'Cuisine',
@@ -128,99 +96,61 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Main Course',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Maida', quantity: 0.5, unit: 'cup' },
+    { name: 'Sugar', quantity: 0.5, unit: 'teaspoon' },
+    { name: 'Salt', quantity: 0.5, unit: 'teaspoon' },
+    { name: 'Milk', quantity: 0.25, unit: 'cup' },
+    { name: 'Water', quantity: 0, unit: 'as needed' },
+    { name: 'Oil', quantity: 0, unit: 'as needed' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Prepare the Dough
+    { point: 'In a mixing bowl, combine maida, sugar, and salt. Add milk and mix well.' },
+    { point: 'Gradually add water to form a soft and sticky dough. Rest for 30 minutes.' },
+    // Shape and Layer
+    { point: 'Apply oil to the work surface. Make lemon-sized balls from the dough and oil your hands.' },
+    { point: 'Spread each dough ball thinly on the surface and fold it like saree pleats, then roll into a spiral.' },
+    { point: 'Flatten the spiral, ensuring the border is visible.' },
+    // Fry the Parotta
+    { point: 'Heat a griddle, add a little oil, and fry each parotta until golden on both sides.' },
+    // Create the Layers
+    { point: 'Remove and beat the parotta between your hands to create the flaky layers.' },
+    { point: 'Serve hot with salna, kurma, or sugar.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
+    { point: 'Add oil while resting, folding, and frying the parotta.' },
+    { point: 'To add eggs, include them while kneading the dough.' },
+    { point: 'For egg parotta, drop an egg on the dough while spreading it, then fold and fry.' },
+    { point: 'Beating the parotta between your hands is crucial for separating layers.' },
+];
 
+export const nutrition = [
+    { point: 'Contains carbohydrates for energy.' },
+    { point: 'Milk provides essential vitamins and minerals.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

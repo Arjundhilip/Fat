@@ -1,126 +1,115 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/perambalur/somas/top.jpg',
+        topic: 'Somas',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'சோமாஸ்',
+        topic: 'Somas',
+        des: `Originating from the quaint town of Perambalur, the Somas is a treasured family recipe that has been passed down through generations. This delightful snack has made its way from family kitchens to the streets, enchanting everyone with its magical taste. The secret to its distinct flavor lies in the "Pooranam" stuffing, which is a meticulously hand-ground mixture of aromatic ingredients, encapsulating the essence of this unique regional sweet. This snack appeals to all age groups, offering a satisfying taste experience.`,
+        imageSrc: '/dishes/signature/perambalur/somas/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Somas',
+        imageSrc: '/dishes/signature/perambalur/somas/info.svg',
+        imageAlt: 'A delightful Perambalur sweet snack',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'All Purpose Flour (Maida)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/perambalur/somas/all_purpose_flour.jpg',
+        imageAlt: 'All Purpose Flour (Maida)',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Pottukadalai (Fried Gram Dal)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/perambalur/somas/fried_gram_dal.jpg',
+        imageAlt: 'Pottukadalai (Fried Gram Dal)',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Sugar',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/perambalur/somas/sugar.jpg',
+        imageAlt: 'Sugar',
     },
-]
+    {
+        id: 4,
+        name: 'Grated Coconut',
+        href: '#',
+        imageSrc: '/dishes/signature/perambalur/somas/coconut.jpg',
+        imageAlt: 'Grated Coconut',
+    },
+    {
+        id: 5,
+        name: 'Cardamom',
+        href: '#',
+        imageSrc: '/dishes/signature/perambalur/somas/cardamom.jpg',
+        imageAlt: 'Cardamom',
+    },
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Snacks',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Perambalur',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
-
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+      
+        topic: 'Somas',
+        des: `Originating from the quaint town of Perambalur, the Somas is a treasured family recipe that has been passed down through generations. This delightful snack has made its way from family kitchens to the streets, enchanting everyone with its magical taste. The secret to its distinct flavor lies in the "Pooranam" stuffing, which is a meticulously hand-ground mixture of aromatic ingredients, encapsulating the essence of this unique regional sweet. This snack appeals to all age groups, offering a satisfying taste experience.`,
+        imageSrc: '/dishes/signature/perambalur/somas/top.jpg',
     },
-
-]
-
-export const time = [
+  ];
+  
+  export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '20 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '30 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '50 mins',
     },
     {
         name: 'Cuisine',
@@ -128,99 +117,61 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Snacks',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+  ]
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    // For the outer layer
+    { name: 'Maida (all-purpose flour)', quantity: 0.36, unit: 'cup' },
+    { name: 'Corn flour', quantity: 0.36, unit: 'teaspoon' },
+    { name: 'Oil', quantity: 0.54, unit: 'tablespoon' },
+    { name: 'Salt', quantity: 0, unit: 'a generous pinch' },
+    // For the filling
+    { name: 'Pottukadalai (fried gram dal)', quantity: 0.18, unit: 'cup' },
+    { name: 'Sugar', quantity: 0.27, unit: 'cup' },
+    { name: 'Grated Coconut', quantity: 0.18, unit: 'cup' },
+    { name: 'Cardamom', quantity: 0.36, unit: '' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Prepare the Dough
+    { point: 'In a mixing bowl, combine all-purpose flour, corn flour, salt, and oil. Gradually sprinkle water to form a stiff dough, using approximately 1/4 cup water. Be cautious not to add too much water. Allow the dough to rest for at least 1 hour.' },
+    // Prepare the Stuffing
+    { point: 'First, roast the coconut until it loses moisture and becomes dry. Allow it to cool completely.' },
+    { point: 'Grind the pottukadalai coarsely in a mixer, resembling rava (semolina/sooji), and transfer to a mixing bowl.' },
+    { point: 'In the mixer, grind sugar and cardamom into a fine powder and add to the bowl with ground pottukadalai.' },
+    { point: 'Combine powdered ingredients with cooled coconut thoroughly in the bowl. Store in a container and refrigerate; use within one month.' },
+    // Form and Fry the Somas
+    { point: 'After resting, knead the dough again until smooth. Divide into equal-sized balls.' },
+    { point: 'Flatten each ball into a palm-sized disc, dusting as needed. Place some stuffing on one side and moisten that side\'s edge with water.' },
+    { point: 'Fold over the stuffing, sealing the edges well.' },
+    { point: 'Trim excess dough using a somas cutter, ravioli cutter, pizza cutter, or knife along the sealed part.' },
+    { point: 'Arrange prepared somas on a plate, covered with a kitchen towel.' },
+    { point: 'Heat oil over low heat and fry the somas in batches (3-4 at a time). Maintain low heat to ensure even cooking and crispiness. Increase heat briefly when removing from oil.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'Ensure a broad seal when folding to prevent opening during frying.' },
+    { point: 'The addition of oil in the dough enhances crispiness, allowing for less water use.' },
+    { point: 'The dough should be stiff to ensure a crispy outer layer. Keep the proportions in the stuffing consistent to maintain the desired flavor and texture.' },
 ];
 
 export const diet = [
     {
-        point: 'Protein rich'
+      point: 'Protein rich'
     },
     {
-        point: 'High Fibre'
+      point: 'High Fibre'
     },
     {
-        point: 'Anti-oxidant'
+      point: 'Anti-oxidant'
     },
-    
-];
-
-export const reviews = { href: '#', average: 5, totalCount: 138 }
+  
+  ];
+  
+  export const reviews = { href: '#', average: 5, totalCount: 138 }

@@ -1,126 +1,108 @@
-
 export const top = [
     {
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-        topic: 'Vada Curry',
-
+        imageSrc: '/dishes/signature/madurai/paruthi_paal/top.png',
+        topic: 'Paruthi Paal',
     },
-
-]
+];
 
 export const intro = [
     {
-        tamilheading: 'வடகறி',
-        topic: 'Vada Curry',
-        des: 'Vada Curry, also known as Vadacurry, is a cherished culinary gem from the bustling streets of Chennai, Tamil Nadu. This delectable dish serves as a versatile accompaniment to a variety of South Indian breakfast and dinner staples, including idiyappam, idli, dosa, parotta, puris, and rotis. Whether served with soft idlis, crispy dosas, or fluffy puris, Vada Curry is sure to transport your taste buds to the heart of Chennai’s vibrant food culture.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/flag.jpg',
-
+        tamilheading: 'பருத்தி பால்',
+        topic: 'Paruthi Paal',
+        des: `Paruthi Paal, a traditional Tamil beverage, is a testament to the ingenious culinary practices that have been passed down through generations. This unique drink, made from cotton seeds and rice, is a hidden gem in the realm of traditional Indian beverages. Originating from rural Tamil Nadu, Paruthi Paal was initially consumed for its cooling properties and as a remedy for various ailments, owing to its nutritious ingredients. The combination of cotton seeds and rice, enriched with the sweetness of jaggery and the creaminess of coconut milk, creates a beverage that is not only comforting but also deeply nourishing. Enhanced with the aromatic spices of cardamom and dry ginger, Paruthi Paal offers a soothing, mildly spiced flavor profile that is as delightful as it is therapeutic.`,
+        imageSrc: '/dishes/signature/madurai/paruthi_paal/flag.jpg',
     },
-
-]
+];
 
 export const info = [
     {
-        name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Paruthi Paal',
+        imageSrc: '/dishes/signature/madurai/paruthi_paal/info.svg',
+        imageAlt: 'A traditional beverage from Tamil Nadu',
     },
-]
-
+];
 
 export const ingredient_pic = [
     {
         id: 1,
-        name: 'Onion',
+        name: 'Paruthi Kottai (Cotton Seed)',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/onion.jpg',
-        imageAlt: 'Tall',
+        imageSrc: '/dishes/signature/madurai/paruthi_paal/paruthi_kottai.jpg',
+        imageAlt: 'Cotton Seed',
     },
     {
         id: 2,
-        name: 'Tomato',
+        name: 'Raw Rice',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/tomato.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/Madurai/paruthi_paal/raw _rice.jpg',
+        imageAlt: 'Raw Rice',
     },
     {
         id: 3,
-        name: 'Channa Dal',
+        name: 'Jaggery',
         href: '#',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/Channa.jpg',
-        imageAlt: 'Olive',
+        imageSrc: '/dishes/signature/madurai/paruthi_paal/jaggery.jpg',
+        imageAlt: 'Jaggery',
     },
-]
+    {
+        id: 4,
+        name: 'Thick Coconut Milk',
+        href: '#',
+        imageSrc: '/dishes/signature/Madurai/paruthi_paal/thick_cocunut_milk.jpg',
+        imageAlt: 'Thick Coconut Milk',
+    },
+    // Add other ingredients as needed
+];
 
 export const list = [
     {
         name: 'Type of Dish:',
-        role: 'Side dish',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'Beverage',
+        imageUrl: '/icons/dish.png',
     },
-
-
-    {
-        name: 'Decade:',
-        role: 'Mid-20th century',
-        imageUrl:
-            '/icons/climate.png',
-    },
-
     {
         name: 'City:',
-        role: 'Chennai',
-        imageUrl:
-            '/icons/climate.png',
+        role: 'madurai',
+        imageUrl: '/icons/city.png',
     },
-
     {
         name: 'State:',
         role: 'Tamil Nadu',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/state.png',
     },
-
     {
         name: 'Country:',
         role: 'India',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/country.png',
     },
-
     {
         name: 'Language:',
         role: 'Tamil',
-        imageUrl:
-            '/icons/climate.png',
+        imageUrl: '/icons/language.png',
     },
-]
-
+];
 
 export const rcintro = [
     {
 
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
-
+        topic: 'Paruthi Paal',
+        des: `Paruthi Paal, a traditional Tamil beverage, is a testament to the ingenious culinary practices that have been passed down through generations. This unique drink, made from cotton seeds and rice, is a hidden gem in the realm of traditional Indian beverages. Originating from rural Tamil Nadu, Paruthi Paal was initially consumed for its cooling properties and as a remedy for various ailments, owing to its nutritious ingredients. The combination of cotton seeds and rice, enriched with the sweetness of jaggery and the creaminess of coconut milk, creates a beverage that is not only comforting but also deeply nourishing. Enhanced with the aromatic spices of cardamom and dry ginger, Paruthi Paal offers a soothing, mildly spiced flavor profile that is as delightful as it is therapeutic.`,
+        imageSrc: '/dishes/signature/madurai/paruthi_paal/top.png',
     },
-
-]
+];
 
 export const time = [
     {
         name: 'Prep Time:',
-        role: '6 hours (including soaking time for channa dal)',
+        role: '15 mins',
     },
     {
         name: 'Cook Time:',
-        role: '40 minutes',
+        role: '20 mins',
     },
     {
         name: 'Total Time:',
-        role: '6 hours 40 minutes',
+        role: '35 mins',
     },
     {
         name: 'Cuisine',
@@ -128,86 +110,45 @@ export const time = [
     },
     {
         name: 'Course:',
-        role: 'Breakfast/Side Dish',
+        role: 'Beverage',
     },
     {
         name: 'Diet:',
         role: ' Vegetarian',
     },
-]
+];
 
-interface Ingredient {
-    name: string;
-    quantity: number;
-    unit: string;
-}
-export const ingredients: Ingredient[] = [
-    { name: 'Channa Dal (Kadala Paruppu)', quantity: 50, unit: 'grams' },
-    { name: 'Onion, finely chopped', quantity: 0.5, unit: 'cup' },
-    { name: 'Tomatoes, big, chopped', quantity: 0.5, unit: 'nos' },
-    { name: 'Cinnamon stick, one-inch piece', quantity: 0.5, unit: 'nos' },
-    { name: 'Fennel seeds', quantity: 0.25, unit: 'tsp' },
-    { name: 'Cloves', quantity: 0.5, unit: 'nos' },
-    { name: 'Cardamom', quantity: 0.5, unit: 'nos' },
-    { name: 'Mint leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Coriander leaves, cleaned and cut', quantity: 0.125, unit: 'bunch' },
-    { name: 'Chilli powder', quantity: 0.5, unit: 'tsp' },
-    { name: 'Coriander powder', quantity: 0.75, unit: 'tsp' },
-    { name: 'Turmeric powder', quantity: 0.125, unit: 'tsp' },
-    { name: 'Oil', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Ginger Garlic paste', quantity: 0.5, unit: 'tbsp' },
-    { name: 'Curry leaves', quantity: 0.5, unit: 'sprigs' },
-    { name: 'Salt,as required', quantity: 0, unit: '' },
-    // Add more ingredients as needed
+export const ingredients = [
+    { name: 'Paruthi Kottai (Cotton Seed)', quantity: 0.5, unit: 'cup' },
+    { name: 'Raw Rice', quantity: 0.25, unit: 'cup' },
+    { name: 'Jaggery', quantity: 0.25, unit: 'cup' },
+    { name: 'Thick Coconut Milk', quantity: 0.25, unit: 'cup' },
+    { name: 'Cardamom Powder', quantity: 0.25, unit: 'teaspoon' },
 ];
 
 export const prep = [
-    {
-        point: 'Soak channa dal overnight, or for 4 to 6 hours. Drain all water.'
-    },
-    {
-        point: 'To the soaked dal, add fennel seeds and curry leaves. Grind it coarsely.'
-    },
-    {
-        point: 'Shape the channa dal batter into flat round balls and steam for 15 minutes in an idli pan or any steamer.'
-    },
-    {
-        point: 'Let the vadas cool down and then crumble them roughly.'
-    },
-    {
-        point: 'In a heavy-bottom vessel, heat oil. Once hot, add cardamom, cloves, cinnamon, fennel, and curry leaves.'
-    },
-    {
-        point: 'Add chopped onions and sauté until they turn translucent. Follow with ginger garlic paste and sauté until the raw smell disappears.'
-    },
-    {
-        point: 'Add chopped tomatoes, mint, and coriander leaves. Sauté for 2 minutes.'
-    },
-    {
-        point: 'Once the tomatoes are cooked, add chilli, coriander, and turmeric powders and mix well.'
-    },
-    {
-        point: 'Add 2 cups of water, season with salt, and bring to a boil. Simmer upon boiling.'
-    },
-    {
-        point: 'Add the steamed, crumbled vadas to this mixture, mixing gently.'
-    },
-    {
-        point: 'Turn off the heat and garnish with more coriander leaves. Check for seasoning and serve hot with idly, dosa, or puri.'
-    }
+    // Preparation of Ingredients
+    { point: 'Thoroughly wash the cotton seeds multiple times to remove any impurities. Soak them in water overnight.' },
+    { point: 'Wash and soak the raw rice in water overnight as well.' },
+    // Creating the Milk Base
+    { point: 'Drain the water from both the cotton seeds and rice. Blend them together with some water until you achieve a smooth paste consistency.' },
+    { point: 'Strain this mixture to obtain a milky liquid.' },
+    // Cooking the Milk
+    { point: 'Pour the milky liquid into a saucepan and cook over medium-low heat for 8-10 minutes, stirring continuously. The mixture will begin to thicken.' },
+    // Adding Flavor and Sweetness
+    { point: 'Incorporate the jaggery into the thickened milk, mixing well until it dissolves. Continue cooking for an additional 4 minutes.' },
+    // Finishing Touches
+    { point: 'Stir in the cardamom and dry ginger powder for flavor.' },
+    { point: 'Remove the saucepan from the heat and blend in the coconut milk.' },
+    // Serving
+    { point: 'Serve the Paruthi Paal warm, allowing the comforting flavors to soothe and nourish.' },
 ];
 
 export const notes = [
-    {
-        point: 'Ensure to soak the channa dal for at least 4 to 6 hours or overnight.'
-    },
-    {
-        point: 'Grinding the dal coarsely helps in retaining texture in the final dish.'
-    },
-    {
-        point: 'Adjust the chilli powder according to your heat preference.'
-    },
-
+    { point: 'Ensure the cotton seeds are washed well to remove any dirt or impurities.' },
+    { point: 'Soaking the seeds and rice overnight facilitates easier grinding.' },
+    { point: 'Although jaggery is the traditional sweetener for this recipe, it can be substituted with karupatti (palm jaggery) or regular sugar. However, jaggery is preferred for its health benefits.' },
+    { point: 'For added texture and flavor, consider mixing in some grated coconut.' },
 ];
 
 export const diet = [
@@ -220,7 +161,6 @@ export const diet = [
     {
         point: 'Anti-oxidant'
     },
-    
 ];
 
 export const reviews = { href: '#', average: 5, totalCount: 138 }
