@@ -18,7 +18,7 @@ const Calen: React.FC = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-16">
           <h2 className="mt-4 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Calendar
+            Catalogue
           </h2>
         </div>
 

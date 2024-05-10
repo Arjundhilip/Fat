@@ -1,5 +1,5 @@
 'use client'
-import { top, intro, reviews, ingredient_pic, list, time, prep, notes, rcintro, ingredients, info, diet } from '@/constants/dishes/sambara_dosa'
+import { top, intro, reviews, ingredient_pic, list, time, prep, notes, rcintro, ingredients, info, diet } from '@/constants/dishes/azhagar_kovil_sambara_dosa'
 import React, { useState } from 'react'
 import Image from "next/legacy/image"
 import { StarIcon } from '@heroicons/react/20/solid'

@@ -17,14 +17,13 @@ const Popular = () => {
             <div className="bg-white">
                 <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8">
                     <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                        {popular.map((product, index) => (
+                        {popular.map((product, name) => (
                             <a key={product.name} href={product.href} className="group">
                                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                                     <Image
                                         src={product.imageSrc}
                                         alt={product.imageAlt}
-                                          loading='lazy'
-
+                                        loading='lazy'
                                         width={100}
                                         height={100}
                                         className="h-full w-full object-cover object-center group-hover:opacity-75"

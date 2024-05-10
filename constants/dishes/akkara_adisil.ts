@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tiruchirappalli/akkara_adisil/top.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/top.jpg',
         topic: 'Akkara Adisil',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'அக்கார அடிசில்',
         topic: 'Akkara Adisil',
         des: `Akkaravadisal, also known as Akkara Adisil, is a traditional Iyengar-style sweet made with rice, moong dal, and generous amounts of milk. This dish is similar to Sakkarai Pongal but differs in texture and the proportion of milk used, resulting in a rich and creamy consistency. It's flavored with jaggery, saffron, cardamom, and garnished with roasted cashews.`,
-        imageSrc: '/dishes/signature/tiruchirappalli/akkara_adisil/flag.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Akkara Adisil',
-        imageSrc: '/dishes/signature/tiruchirappalli/akkara_adisil/info.svg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/info.svg',
         imageAlt: 'A traditional Iyengar-style sweet made with rice, moong dal, and generous amounts of milk',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Raw Rice',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/akkara_adisil/raw_rice.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/raw_rice.jpg',
         imageAlt: 'Raw Rice',
     },
     {
         id: 2,
         name: 'Moong Dal (Paasi Paruppu)',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/akkara_adisil/moong_dal.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/moong_dal.jpg',
         imageAlt: 'Moong Dal (Paasi Paruppu)',
     },
     {
         id: 3,
         name: 'Jaggery',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/akkara_adisil/jaggery.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/jaggery.jpg',
         imageAlt: 'Jaggery',
     },
     // Add other ingredients as needed
@@ -80,7 +80,7 @@ export const rcintro = [
   
         topic: 'Akkara Adisil',
         des: `Akkaravadisal, also known as Akkara Adisil, is a traditional Iyengar-style sweet made with rice, moong dal, and generous amounts of milk. This dish is similar to Sakkarai Pongal but differs in texture and the proportion of milk used, resulting in a rich and creamy consistency. It's flavored with jaggery, saffron, cardamom, and garnished with roasted cashews.`,
-        imageSrc: '/dishes/signature/tiruchirappalli/akkara_adisil/flag.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/flag.jpg',
   
     },
   ]

@@ -27,7 +27,7 @@ export const ingredient_pic = [
         id: 1,
         name: 'Chicken with bones',
         href: '#',
-        imageSrc: '/dishes/signature/sivagangai/kozhi_milagu_varuval/chicken_bones.jpg',
+        imageSrc: '/dishes/signature/sivagangai/kozhi_milagu_varuval/chicken.jpg',
         imageAlt: 'Chicken with bones',
     },
     {
@@ -78,9 +78,9 @@ export const list = [
 export const rcintro = [
     {
 
-        topic: 'Vada Curry',
-        des: 'This traditional South Indian dish is a delightful mix of flavors and textures, featuring steamed and crumbled lentil patties simmered in a richly spiced sauce. Perfect as a hearty accompaniment to breakfast staples like idly, dosa, or puri.',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/top.jpg',
+        topic: 'Kozhi Milagu Varuval',
+        des: `Kozhi Milagu Varuval is a spicy chicken dish that highlights the bold flavor of black pepper. Traditionally prepared in South India, this semi-dry dish infuses gingelly oil with whole spices, then adds chicken, tomatoes, and an array of aromatics for a delightful burst of heat. Popular as an appetizer or starter, this dish embodies South Indian cuisine's characteristic blend of flavors.`,
+        imageSrc: '/dishes/signature/sivagangai/kozhi_milagu_varuval/top.jpg',
 
     },
 

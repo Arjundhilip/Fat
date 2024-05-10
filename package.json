@@ -19,6 +19,7 @@
     "file-saver": "^2.0.5",
     "heroicons": "^2.1.1",
     "heroicons-react": "^1.4.1",
+    "html2canvas": "^1.4.1",
     "keep-react": "^1.2.0",
     "leaflet": "^1.9.4",
     "leaflet-defaulticon-compatibility": "^0.1.2",

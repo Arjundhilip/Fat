@@ -34,7 +34,7 @@ export const ingredient_pic = [
         id: 2,
         name: 'Khoya (unsweetened milk solid), crumbled',
         href: '#',
-        imageSrc: '/dishes/signature/ranipet/makkan_peda/khoya.jpg',
+        imageSrc: '/dishes/signature/ranipet/makkan_peda/khoya_crumbled.jpg',
         imageAlt: 'Khoya (unsweetened milk solid), crumbled',
     },
     {

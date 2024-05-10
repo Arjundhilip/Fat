@@ -22,8 +22,8 @@ const Footer = () => {
           </a>
 
           <div className="flex flex-wrap justify-between mt-0 -mx-4">
-            <a href="#" className="mx-4 text-sm font-semibold leading-6 text-gray-900" aria-label="Reddit">10966 <br /> <strong>SIGNATURE DISHES</strong></a>
-            <a href="#" className="mx-4 text-sm font-semibold leading-6 text-gray-900" aria-label="Reddit">10966 <br /> <strong>POPULAR DISHES</strong></a>
+            <a href="#" className="mx-4 text-sm font-semibold leading-6 text-gray-900" aria-label="Reddit">50 <br /> <strong>SIGNATURE DISHES</strong></a>
+            <a href="#" className="mx-4 text-sm font-semibold leading-6 text-gray-900" aria-label="Reddit">100 <br /> <strong>POPULAR DISHES</strong></a>
           </div>
         </div>
 

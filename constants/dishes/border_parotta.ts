@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/senkottai/border_parotta/top.jpg',
+        imageSrc: '/dishes/signature/Tenkasi/border_parotta/top.jpg',
         topic: 'Border Parotta',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'போர்டர் பரோட்டா',
         topic: 'Border Parotta',
         des: `The Senkottai Border Parotta is a renowned layered flatbread known for its distinctive thin and crispy borders. This soft and flaky bread is made with maida (all-purpose flour) and layered using a specific folding technique. It's a popular dinner item served with curries like salna or kurma, and is a culinary delight native to Tamil Nadu.`,
-        imageSrc: '/dishes/signature/senkottai/border_parotta/flag.jpg',
+        imageSrc: '/dishes/signature/Tenkasi/border_parotta/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Border Parotta',
-        imageSrc: '/dishes/signature/senkottai/border_parotta/info.svg',
+        imageSrc: '/dishes/signature/Tenkasi/border_parotta/info.svg',
         imageAlt: 'A renowned Tamil Nadu layered flatbread',
     },
 ];
@@ -27,14 +27,14 @@ export const ingredient_pic = [
         id: 1,
         name: 'Maida',
         href: '#',
-        imageSrc: '/dishes/signature/senkottai/border_parotta/maida.jpg',
+        imageSrc: '/dishes/signature/Tenkasi/border_parotta/maida.jpg',
         imageAlt: 'Maida (All-Purpose Flour)',
     },
     {
         id: 2,
         name: 'Milk',
         href: '#',
-        imageSrc: '/dishes/signature/senkottai/border_parotta/milk.jpg',
+        imageSrc: '/dishes/signature/Tenkasi/border_parotta/milk.jpg',
         imageAlt: 'Milk',
     },
     // Add other ingredients as needed
@@ -73,7 +73,7 @@ export const rcintro = [
       
         topic: 'Border Parotta',
         des: `The Senkottai Border Parotta is a renowned layered flatbread known for its distinctive thin and crispy borders. This soft and flaky bread is made with maida (all-purpose flour) and layered using a specific folding technique. It's a popular dinner item served with curries like salna or kurma, and is a culinary delight native to Tamil Nadu.`,
-        imageSrc: '/dishes/signature/senkottai/border_parotta/top.jpg',
+        imageSrc: '/dishes/signature/Tenkasi/border_parotta/top.jpg',
     },
   ];
   

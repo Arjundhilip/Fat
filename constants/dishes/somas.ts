@@ -37,27 +37,15 @@ export const ingredient_pic = [
         imageSrc: '/dishes/signature/perambalur/somas/fried_gram_dal.jpg',
         imageAlt: 'Pottukadalai (Fried Gram Dal)',
     },
-    {
-        id: 3,
-        name: 'Sugar',
-        href: '#',
-        imageSrc: '/dishes/signature/perambalur/somas/sugar.jpg',
-        imageAlt: 'Sugar',
-    },
+   
     {
         id: 4,
         name: 'Grated Coconut',
         href: '#',
-        imageSrc: '/dishes/signature/perambalur/somas/coconut.jpg',
+        imageSrc: '/dishes/signature/perambalur/somas/fresh_grated_coconut.jpg',
         imageAlt: 'Grated Coconut',
     },
-    {
-        id: 5,
-        name: 'Cardamom',
-        href: '#',
-        imageSrc: '/dishes/signature/perambalur/somas/cardamom.jpg',
-        imageAlt: 'Cardamom',
-    },
+    
     // Add other ingredients as needed
 ];
 

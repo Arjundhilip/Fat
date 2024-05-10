@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/top.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/muscoth_halwa/top.jpg',
         topic: 'Muscoth Halwa',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'மஸ்கோத் அல்வா',
         topic: 'Muscoth Halwa',
         des: `Muscoth Halwa is a decadent coconut-based dessert, known for its rich flavor and unique preparation. The halwa combines thick coconut milk with maida (all-purpose flour) and caramelized sugar to create a delightful, chewy treat. Cashews add a nutty crunch, and the slow cooking method results in a dessert with layers of flavor.`,
-        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/flag.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/muscoth_halwa/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Muscoth Halwa',
-        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/info.svg',
+        imageSrc: '/dishes/signature/Thoothukudi/muscoth_halwa/info.svg',
         imageAlt: 'A rich and chewy coconut halwa made with caramelized sugar and all-purpose flour',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'All-Purpose Flour (Maida)',
         href: '#',
-        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/maida.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/muscoth_halwa/maida.jpg',
         imageAlt: 'All-Purpose Flour (Maida)',
     },
-    {
-        id: 2,
-        name: 'Thick Coconut Milk',
-        href: '#',
-        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/thick_coconut_milk.jpg',
-        imageAlt: 'Thick Coconut Milk',
-    },
+    // {
+    //     id: 2,
+    //     name: 'Thick Coconut Milk',
+    //     href: '#',
+    //     imageSrc: '/dishes/signature/Thoothukudi/muscoth_halwa/thick_coconut_milk.jpg',
+    //     imageAlt: 'Thick Coconut Milk',
+    // },
     {
         id: 3,
         name: 'Sugar',
         href: '#',
-        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/sugar.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/muscoth_halwa/sugar.jpg',
         imageAlt: 'Sugar',
     },
     // Add other ingredients as required
@@ -79,7 +79,7 @@ export const rcintro = [
     {
         topic: 'Muscoth Halwa',
         des: `Muscoth Halwa is a decadent coconut-based dessert, known for its rich flavor and unique preparation. The halwa combines thick coconut milk with maida (all-purpose flour) and caramelized sugar to create a delightful, chewy treat. Cashews add a nutty crunch, and the slow cooking method results in a dessert with layers of flavor.`,
-        imageSrc: '/dishes/signature/mudhalur/muscoth_halwa/top.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/muscoth_halwa/top.jpg',
     },
   ];
   

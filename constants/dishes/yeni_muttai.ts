@@ -34,14 +34,14 @@ export const ingredient_pic = [
         id: 2,
         name: 'Whole Urad Dal',
         href: '#',
-        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/whole_urad_dal.jpg',
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/urad_dal.jpg',
         imageAlt: 'Whole Urad Dal',
     },
     {
         id: 3,
         name: 'Palm Jaggery (Karupatti)',
         href: '#',
-        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/palm_jaggery.jpg',
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/jaggery.jpg',
         imageAlt: 'Palm Jaggery (Karupatti)',
     },
     // Add other ingredients as needed

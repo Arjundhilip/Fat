@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/kumbakonam/idli_kadapa/top.jpg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/top.jpg',
         topic: 'Idli Kadapa',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'இட்லி கடாப்பா',
         topic: 'Idli Kadapa',
         des: `Idli Kadapa is a side dish originating from Kumbakonam in Tamil Nadu. Made with mashed potatoes, moong dal, and a coconut-based spice paste, this flavorful gravy is usually served alongside idlis, dosas, or poori. The blend of coconut, fennel, and garlic provides a unique aroma and taste, making it a perfect accompaniment.`,
-        imageSrc: '/dishes/signature/kumbakonam/idli_kadapa/flag.jpg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Idli Kadapa',
-        imageSrc: '/dishes/signature/kumbakonam/idli_kadapa/info.svg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/info.svg',
         imageAlt: 'A traditional side dish from Kumbakonam, with potatoes, moong dal, and a spiced coconut paste',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Moong Dal (Paasi paruppu)',
         href: '#',
-        imageSrc: '/dishes/signature/kumbakonam/idli_kadapa/moong_dal.jpg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/moong_dal.jpg',
         imageAlt: 'Moong Dal (Paasi paruppu)',
     },
     {
         id: 2,
         name: 'Potato',
         href: '#',
-        imageSrc: '/dishes/signature/kumbakonam/idli_kadapa/potato.jpg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/potato.jpg',
         imageAlt: 'Potato',
     },
     {
         id: 3,
         name: 'Grated Coconut',
         href: '#',
-        imageSrc: '/dishes/signature/kumbakonam/idli_kadapa/grated_coconut.jpg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/grated_coconut.jpg',
         imageAlt: 'Grated Coconut',
     },
     // Add other ingredients as needed
@@ -79,7 +79,7 @@ export const rcintro = [
     {
         topic: 'Idli Kadapa',
         des: `Idli Kadapa is a side dish originating from Kumbakonam in Tamil Nadu. Made with mashed potatoes, moong dal, and a coconut-based spice paste, this flavorful gravy is usually served alongside idlis, dosas, or poori. The blend of coconut, fennel, and garlic provides a unique aroma and taste, making it a perfect accompaniment.`,
-        imageSrc: '/dishes/signature/kumbakonam/idli_kadapa/top.jpg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/top.jpg',
     },
   ];
   

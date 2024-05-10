@@ -1,36 +1,35 @@
 import Image from "next/legacy/image"
 
+
+
 const products = [
     {
         id: 1,
-        name: 'Srivilliputhur Palkova',
-        href: '/dishes/signature/srivilliputhurpalkova',
-        imageSrc: '/Ingredients/Palkova.jpg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        name: 'Jigirthanda',
+        href: '/dishes/signature/jigarthanda',
+        imageSrc: '/dishes/signature/Madurai/jigarthanda/top.jpg',
+        imageAlt: 'Jigirthanda',
     },
     {
         id: 2,
-        name: 'Manaparai Murukku',
-        href: '#',
-        price: '$35',
-        imageSrc: '/Ingredients/Palkova.jpg',
-        imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+        name: 'Karupatti Coffee',
+        href: '/dishes/signature/karupatti_coffee',
+        imageSrc: '/dishes/signature/Madurai/karupatti_coffee/top.jpg',
+        imageAlt: 'Karupatti Coffee',
     },
     {
         id: 3,
-        name: 'Kovilpatti Kadalamittai',
-        href: '#',
-        price: '$89',
-        imageSrc: '/Ingredients/Palkova.jpg',
-        imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+        name: 'Paruthi Paal',
+        href: '/dishes/signature/paruthi_paal',
+        imageSrc: '/dishes/signature/Madurai/paruthi_paal/top.png',
+        imageAlt: 'Paruthi Paal',
     },
     {
         id: 4,
-        name: 'Butter Chicken',
-        href: '/dishes/butterchicken',
-        price: '$35',
-        imageSrc: '/Ingredients/Palkova.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        name: 'Mutton Chukka',
+        href: '/dishes/signature/mutton-chukka',
+        imageSrc: '/dishes/signature/Madurai/muttonchukkavaruval/top.jpg',
+        imageAlt: 'Mutton Chukka',
     },
 ]
 

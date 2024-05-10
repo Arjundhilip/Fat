@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/nammakkal/vathu_curry_varuval/top.jpg',
+        imageSrc: '/dishes/signature/namakkal/vathu_curry_varuval/top.jpg',
         topic: 'Vathu Curry Varuval',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'வத்து கறி வறுவல்',
         topic: 'Vathu Curry Varuval',
         des: `Vathu Curry Varuval, or Duck Pepper Fry, is a robust and flavorful dish hailing from Karur, a city nestled in the heart of Tamil Nadu, India. This dish perfectly encapsulates the region's love for rich, spice-laden cuisines, with duck as the centerpiece, marinated and fried with a medley of local spices, including the fiery black pepper, which is a staple in South Indian cooking. Duck meat, known for its rich taste and texture, is transformed into a delicacy that is both aromatic and deeply satisfying. Traditionally enjoyed as a part of a larger meal, this varuval (fry) brings warmth and zest, making it a favored choice during gatherings and special occasions. It's a culinary tribute to Tamil Nadu's vibrant food culture, where every bite tells a story of tradition, spice, and everything nice.`,
-        imageSrc: '/dishes/signature/nammakkal/vathu_curry_varuval/flag.jpg',
+        imageSrc: '/dishes/signature/namakkal/vathu_curry_varuval/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Vathu Curry Varuval',
-        imageSrc: '/dishes/signature/nammakkal/vathu_curry_varuval/info.svg',
+        imageSrc: '/dishes/signature/namakkal/vathu_curry_varuval/info.svg',
         imageAlt: 'A traditional South Indian duck fry',
     },
 ];
@@ -27,7 +27,7 @@ export const ingredient_pic = [
         id: 1,
         name: 'Duck meat',
         href: '#',
-        imageSrc: '/dishes/signature/nammakkal/vathu_curry_varuval/duck_meat.jpg',
+        imageSrc: '/dishes/signature/namakkal/vathu_curry_varuval/duck_meat.jpg',
         imageAlt: 'Duck meat',
     },
     // Add other ingredients as needed
@@ -41,7 +41,7 @@ export const list = [
     },
     {
         name: 'City:',
-        role: 'nammakkal',
+        role: 'namakkal',
         imageUrl: '/icons/city.png',
     },
     {
@@ -65,7 +65,7 @@ export const rcintro = [
     {
         topic: 'Vathu Curry Varuval',
         des: `Vathu Curry Varuval, or Duck Pepper Fry, is a robust and flavorful dish hailing from Karur, a city nestled in the heart of Tamil Nadu, India. This dish perfectly encapsulates the region's love for rich, spice-laden cuisines, with duck as the centerpiece, marinated and fried with a medley of local spices, including the fiery black pepper, which is a staple in South Indian cooking. Duck meat, known for its rich taste and texture, is transformed into a delicacy that is both aromatic and deeply satisfying. Traditionally enjoyed as a part of a larger meal, this varuval (fry) brings warmth and zest, making it a favored choice during gatherings and special occasions. It's a culinary tribute to Tamil Nadu's vibrant food culture, where every bite tells a story of tradition, spice, and everything nice.`,
-        imageSrc: '/dishes/signature/nammakkal/vathu_curry_varuval/top.jpg',
+        imageSrc: '/dishes/signature/namakkal/vathu_curry_varuval/top.jpg',
     },
   ];
   

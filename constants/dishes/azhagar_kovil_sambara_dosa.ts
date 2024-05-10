@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tiruchirappalli/azhagar_kovil_sambara_dosa/top.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/top.jpg',
         topic: 'Azhagar Kovil Sambara Dosa',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'சாம்பார் தோசை',
         topic: 'Azhagar Kovil Sambara Dosa',
         des: `Azhagar Kovil Sambara Dosai is a special, thick dosa made from raw rice and black urad dal. Originating from the Azhagar Kovil temple in Tamil Nadu, this dosa is known for its savory flavors, distinctive peppery notes, and subtle spiciness from curry leaves and dry ginger. It's traditionally made with ghee for an extra layer of richness.`,
-        imageSrc: '/dishes/signature/tiruchirappalli/azhagar_kovil_sambara_dosa/flag.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Azhagar Kovil Sambara Dosa',
-        imageSrc: '/dishes/signature/tiruchirappalli/azhagar_kovil_sambara_dosa/info.svg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/info.svg',
         imageAlt: 'A thick temple-style dosa made with raw rice and black urad dal',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Raw Rice',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/azhagar_kovil_sambara_dosa/raw_rice.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/raw_rice.jpg',
         imageAlt: 'Raw Rice',
     },
     {
         id: 2,
         name: 'Black Urad Dal',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/azhagar_kovil_sambara_dosa/black_urad_dal.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/black_urad_dal.jpg',
         imageAlt: 'Black Urad Dal',
     },
     {
         id: 3,
         name: 'Dry Ginger Powder',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/azhagar_kovil_sambara_dosa/dry_ginger_powder.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/dry_ginger_powder.jpg',
         imageAlt: 'Dry Ginger Powder',
     },
     // Add other ingredients as needed

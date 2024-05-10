@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tirunelveli/nellai_sodhi/top.jpg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/top.jpg',
         topic: 'Nellai Sodhi',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'நெல்லை சோதி',
         topic: 'Nellai Sodhi',
         des: `Sodhi, also known as Mappillai Sodhi, is a traditional coconut milk-based dish from the Tirunelveli region of Tamil Nadu. It is a creamy, mild gravy that features a harmonious blend of moong dal and assorted vegetables such as drumsticks, carrots, and potatoes. This dish is often served during special occasions and is cherished for its rich and comforting taste.`,
-        imageSrc: '/dishes/signature/tirunelveli/nellai_sodhi/flag.jpg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Nellai Sodhi',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_sodhi/info.svg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/info.svg',
         imageAlt: 'A creamy and flavorful coconut milk-based gravy from Tirunelveli',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Coconut Milk',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_sodhi/coconut_milk.jpg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/milk.jpg',
         imageAlt: 'Coconut Milk',
     },
     {
         id: 2,
         name: 'Moong Dal',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_sodhi/moong_dal.jpg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/moong_dal.jpg',
         imageAlt: 'Moong Dal',
     },
     {
         id: 3,
         name: 'Vegetables',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_sodhi/vegetables.jpg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/vegetables.jpg',
         imageAlt: 'Vegetables',
     },
     // Add other ingredients as required
@@ -79,7 +79,7 @@ export const rcintro = [
     {
         topic: 'Nellai Sodhi',
         des: `Sodhi, also known as Mappillai Sodhi, is a traditional coconut milk-based dish from the Tirunelveli region of Tamil Nadu. It is a creamy, mild gravy that features a harmonious blend of moong dal and assorted vegetables such as drumsticks, carrots, and potatoes. This dish is often served during special occasions and is cherished for its rich and comforting taste.`,
-        imageSrc: '/dishes/signature/tirunelveli/nellai_sodhi/top.jpg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/top.jpg',
     },
   ];
   

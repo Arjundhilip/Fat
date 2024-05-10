@@ -41,7 +41,7 @@ export const ingredient_pic = [
         id: 3,
         name: 'Cardamom Powder',
         href: '#',
-        imageSrc: '/dishes/signature/karur/thengai_muttai/cardamom_powder.jpg',
+        imageSrc: '/dishes/signature/karur/thengai_muttai/cardamon_powder.jpg',
         imageAlt: 'Cardamom Powder',
     },
     // Add other ingredients if required

@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/top.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/top.jpg',
         topic: 'Thenkuzhal Murukku',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'தேன்குழல் முறுக்கு',
         topic: 'Thenkuzhal Murukku',
         des: `Thenkuzhal Murukku is a traditional South Indian snack, often prepared in large quantities for Diwali and Gokulashtami festivals. Made with a blend of rice flour and urad dal flour, these crispy snacks are shaped using a murukku press and deep-fried to golden perfection. The addition of butter gives them a crisp texture and a light color, making them an irresistible treat.`,
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/flag.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Thenkuzhal Murukku',
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/info.svg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/info.svg',
         imageAlt: 'A traditional South Indian snack made with rice flour and urad dal flour',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Rice Flour (Idiyappam Flour)',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/rice_flour.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/rice_flour.jpg',
         imageAlt: 'Rice Flour (Idiyappam Flour)',
     },
     {
         id: 2,
         name: 'Urad Dal Flour',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/urad_dal_flour.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/urad_dal_flour.jpg',
         imageAlt: 'Urad Dal Flour',
     },
     {
         id: 3,
         name: 'Butter',
         href: '#',
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/butter.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/butter.jpg',
         imageAlt: 'Butter',
     },
     // Add other ingredients as required
@@ -80,7 +80,7 @@ export const rcintro = [
       
         topic: 'Thenkuzhal Murukku',
         des: `Thenkuzhal Murukku is a traditional South Indian snack, often prepared in large quantities for Diwali and Gokulashtami festivals. Made with a blend of rice flour and urad dal flour, these crispy snacks are shaped using a murukku press and deep-fried to golden perfection. The addition of butter gives them a crisp texture and a light color, making them an irresistible treat.`,
-        imageSrc: '/dishes/signature/tiruchirappalli/thenkuzhal_murukku/top.jpg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/top.jpg',
     },
   ];
   

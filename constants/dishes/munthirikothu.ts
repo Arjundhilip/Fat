@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/top.jpg',
+        imageSrc: '/dishes/signature/Kanniyakumari/munthiri_kothu/top.jpg',
         topic: 'Munthiri Kothu',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'முந்திரி கொத்து',
         topic: 'Munthiri Kothu',
         des: `Munthiri Kothu, a traditional sweet from the southern parts of India, particularly Kerala and Tamil Nadu, is a delightful concoction of roasted green gram, coconut, and jaggery. The name 'Munthiri Kothu' literally translates to 'cluster of grapes' in Malayalam and Tamil, alluding to the appearance of these fried sweet balls when clustered together. This delicacy is often made during festivals and special occasions, symbolizing joy and togetherness. The combination of jaggery and coconut brings a natural sweetness and richness to the dish, while the green gram adds a nutty flavor and a crunchy texture. Deep-fried to golden perfection, these sweet balls are a testament to the simple yet profound flavors of South Indian cuisine.`,
-        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/flag.jpg',
+        imageSrc: '/dishes/signature/Kanniyakumari/munthiri_kothu/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Munthiri Kothu',
-        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/info.svg',
+        imageSrc: '/dishes/signature/Kanniyakumari/munthiri_kothu/info.svg',
         imageAlt: 'A traditional South Indian sweet cluster',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Whole green gram dal',
         href: '#',
-        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/green_gram.jpg',
+        imageSrc: '/dishes/signature/Kanniyakumari/munthiri_kothu/green_peas.jpg',
         imageAlt: 'Whole Green Gram Dal',
     },
     {
         id: 2,
         name: 'Jaggery',
         href: '#',
-        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/jaggery.jpg',
+        imageSrc: '/dishes/signature/Kanniyakumari/munthiri_kothu/jaggery.jpg',
         imageAlt: 'Jaggery',
     },
     {
         id: 3,
         name: 'Coconut',
         href: '#',
-        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/coconut.jpg',
+        imageSrc: '/dishes/signature/Kanniyakumari/munthiri_kothu/coconut.jpg',
         imageAlt: 'Grated Coconut',
     },
     // Add other ingredients as required
@@ -55,7 +55,7 @@ export const list = [
     },
     {
         name: 'City:',
-        role: 'kanyakumari',
+        role: 'Kanniyakumari',
         imageUrl: '/icons/city.png',
     },
     {
@@ -80,7 +80,7 @@ export const rcintro = [
       
         topic: 'Munthiri Kothu',
         des: `Munthiri Kothu, a traditional sweet from the southern parts of India, particularly Kerala and Tamil Nadu, is a delightful concoction of roasted green gram, coconut, and jaggery. The name 'Munthiri Kothu' literally translates to 'cluster of grapes' in Malayalam and Tamil, alluding to the appearance of these fried sweet balls when clustered together. This delicacy is often made during festivals and special occasions, symbolizing joy and togetherness. The combination of jaggery and coconut brings a natural sweetness and richness to the dish, while the green gram adds a nutty flavor and a crunchy texture. Deep-fried to golden perfection, these sweet balls are a testament to the simple yet profound flavors of South Indian cuisine.`,
-        imageSrc: '/dishes/signature/kanyakumari/munthiri_kothu/top.jpg',
+        imageSrc: '/dishes/signature/Kanniyakumari/munthiri_kothu/top.jpg',
     },
   ];
   

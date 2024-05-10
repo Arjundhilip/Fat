@@ -41,7 +41,7 @@ export const ingredient_pic = [
         id: 3,
         name: 'Chana Dal (Kadalai Paruppu)',
         href: '#',
-        imageSrc: '/dishes/signature/thanjavur/thavala_adai/chana_dal.jpg',
+        imageSrc: '/dishes/signature/thanjavur/thavala_adai/Channa.jpg',
         imageAlt: 'Chana Dal (Kadalai Paruppu)',
     },
     // Add other ingredients as needed

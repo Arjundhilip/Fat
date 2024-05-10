@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/kovilpatti/kadalai_mittai/top.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/top.jpg',
         topic: 'Kadalai Mittai',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'கடலை மிட்டாய்',
         topic: 'Kadalai Mittai',
         des: `Kadalai Mittai, a popular South Indian sweet, is made with roasted peanuts and jaggery. It's crunchy, nutty, and delicious, providing a nutritious treat that lasts for weeks. The combination of roasted peanuts and jaggery creates a perfect balance of sweetness and nuttiness.`,
-        imageSrc: '/dishes/signature/kovilpatti/kadalai_mittai/flag.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Kadalai Mittai',
-        imageSrc: '/dishes/signature/kovilpatti/kadalai_mittai/info.svg',
+        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/info.svg',
         imageAlt: 'A crunchy and nutty South Indian sweet made with roasted peanuts and jaggery',
     },
 ];
@@ -27,14 +27,14 @@ export const ingredient_pic = [
         id: 1,
         name: 'Peanuts',
         href: '#',
-        imageSrc: '/dishes/signature/kovilpatti/kadalai_mittai/peanuts.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/peanuts.jpg',
         imageAlt: 'Peanuts',
     },
     {
         id: 2,
         name: 'Jaggery',
         href: '#',
-        imageSrc: '/dishes/signature/kovilpatti/kadalai_mittai/jaggery.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/jaggery.jpg',
         imageAlt: 'Jaggery',
     },
     // Add other ingredients as needed
@@ -72,7 +72,7 @@ export const rcintro = [
     {
         topic: 'Kadalai Mittai',
         des: `Kadalai Mittai, a popular South Indian sweet, is made with roasted peanuts and jaggery. It's crunchy, nutty, and delicious, providing a nutritious treat that lasts for weeks. The combination of roasted peanuts and jaggery creates a perfect balance of sweetness and nuttiness.`,
-        imageSrc: '/dishes/signature/kovilpatti/kadalai_mittai/top.jpg',
+        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/top.jpg',
     },
   ];
   

@@ -41,7 +41,7 @@ export const ingredient_pic = [
         id: 3,
         name: 'Whole Spices',
         href: '#',
-        imageSrc: '/dishes/signature/sivagangai/chettinad_egg_vazhiyal/whole_spices.jpg',
+        imageSrc: '/dishes/signature/sivagangai/chettinad_egg_vazhiyal/whole_spice.jpg',
         imageAlt: 'Whole Spices',
     },
     // Add other ingredients as required
