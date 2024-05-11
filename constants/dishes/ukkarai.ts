@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/top.jpg',
         topic: 'Ukkarai',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'உக்கறை',
         topic: 'Ukkarai',
         des: `Ukkarai, also known as Okkarai, is a traditional sweet from Tamil Nadu, prepared with chana dal, cane sugar, and coconut. It's flavored with cardamom and garnished with roasted cashews. This crumbly dessert is popular during festivals and special occasions like Navratri, offering a unique blend of flavors and textures that make it a delightful treat.`,
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/flag.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Ukkarai',
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/info.svg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/info.svg',
         imageAlt: 'A traditional sweet dish made from chana dal, cane sugar, and coconut',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Chana Dal',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/chana_dal.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/chana_dal.jpg',
         imageAlt: 'Chana Dal',
     },
     {
         id: 2,
         name: 'Cane Sugar',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/cane_sugar.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/cane_sugar.jpg',
         imageAlt: 'Cane Sugar',
     },
     {
         id: 3,
         name: 'Coconut',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/coconut.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/coconut.jpg',
         imageAlt: 'Coconut',
     },
     // Add other ingredients if required
@@ -79,7 +79,7 @@ export const rcintro = [
     {
         topic: 'Ukkarai',
         des: `Ukkarai, also known as Okkarai, is a traditional sweet from Tamil Nadu, prepared with chana dal, cane sugar, and coconut. It's flavored with cardamom and garnished with roasted cashews. This crumbly dessert is popular during festivals and special occasions like Navratri, offering a unique blend of flavors and textures that make it a delightful treat.`,
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/top.jpg',
     },
   ];
   

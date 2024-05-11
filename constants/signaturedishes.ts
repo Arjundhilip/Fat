@@ -312,13 +312,13 @@ export const thanjavur = [
         imageSrc: '/dishes/signature/thanjavur/idli_kadapa/top.jpg',
         imageAlt: 'Idli Kadapa',
     },
-    // {
-    //     id: 2,
-    //     name: 'Degree Filter Coffee',
-    //     href: '/dishes/signature/degree-filter-coffee',
-    //     imageSrc: '/dishes/signature/thanjavur/idli_kadapa/top.jpg',
-    //     imageAlt: 'Degree Filter Coffee',
-    // },
+    {
+        id: 2,
+        name: 'Degree Filter Coffee',
+        href: '/dishes/signature/degree_filter_coffee',
+        imageSrc: '/dishes/signature/thanjavur/degree_filter_coffee/top.jpg',
+        imageAlt: 'Degree Filter Coffee',
+    },
     {
         id: 3,
         name: 'Thavala Adai',
@@ -406,8 +406,8 @@ export const thirunelveli = [
     {
         id: 2,
         name: 'Nellai Fish Curry',
-        href: '/dishes/signature/nellai-fish-curry',
-        imageSrc: '/dishes/signature/thirunelveli/nellaifishcurry/top.jpg',
+        href: '/dishes/signature/nellai_fish_curry',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/top.jpg',
         imageAlt: 'Nellai Fish Curry',
     },
     {
@@ -420,8 +420,8 @@ export const thirunelveli = [
     {
         id: 4,
         name: 'Iruttukadai Halva',
-        href: '/dishes/signature/iruttukadai-halva',
-        imageSrc: '/dishes/signature/thirunelveli/iruttukadaihalva/top.jpg',
+        href: '/dishes/signature/iruttukadai_halva',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/top.jpg',
         imageAlt: 'Iruttukadai Halva',
     },
 ];
@@ -440,8 +440,8 @@ export const tiruppur = [
     {
         id: 1,
         name: 'Chinthamani Chicken',
-        href: '/dishes/signature/chinthamani-chicken',
-        imageSrc: '/dishes/signature/Tiruppur/chinthamanichicken/top.jpg',
+        href: '/dishes/signature/chinthamani_chicken',
+        imageSrc: '/dishes/signature/Tiruppur/chinthamani_chicken/top.jpg',
         imageAlt: 'Chinthamani Chicken',
     },
 ];
@@ -451,7 +451,7 @@ export const thiruvallur = [
         id: 1,
         name: 'Seeralam',
         href: '/dishes/signature/seeralam',
-        imageSrc: '/dishes/signature/thiruvallur/seeralam/top.jpg',
+        imageSrc: '/dishes/signature/Thiruvallur/seeralam/top.jpg',
         imageAlt: 'Seeralam',
     },
     {
@@ -463,12 +463,12 @@ export const thiruvallur = [
     },
 ];
 
-export const tiruvannamalai = [
+export const thiruvannamalai = [
     {
         id: 1,
         name: 'Milagu Vadai',
-        href: '/dishes/signature/milagu-vadai',
-        imageSrc: '/dishes/signature/tiruvannamalai/milaguvadai/top.jpg',
+        href: '/dishes/signature/milagu_vadai',
+        imageSrc: '/dishes/signature/thiruvannamalai/milagu_vadai/top.jpg',
         imageAlt: 'Milagu Vadai',
     },
 ];

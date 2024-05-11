@@ -1,9 +1,9 @@
 'use client'
 import React from 'react';
 import Accordion from "../components/Accordion";
-import Image from 'next/image';
-import { ariyalur,  chennai, coimbatore, cuddalore, dindigul, erode, kallakurichi, kancheepuram, kanniyakumari, karur, krishnagiri, madurai, mayiladuthurai, nagapattinam, namakkal, perambalur, pudukottai, ramanathapuram, ranipet, salem, sivagangai, tenkasi, thanjavur, theni, thenilgiris, thirunelveli, thiruvallur, thoothukudi, tiruppur, tiruvannamalai, trichirappalli, vellore, viluppuram, virudhunagar } from '@/constants/signaturedishes'
-import Krishnagiri from '@/app/districts/krishnagiri/page';
+import Image from 'next/image';thiruvannamalai
+import { ariyalur,  chennai, coimbatore, cuddalore, dindigul, erode, kallakurichi, kancheepuram, kanniyakumari, karur, krishnagiri, madurai, mayiladuthurai, nagapattinam, namakkal, perambalur, pudukottai, ramanathapuram, ranipet, salem, sivagangai, tenkasi, thanjavur, theni, thenilgiris, thirunelveli, thiruvallur,  thoothukudi, tiruppur, thiruvannamalai, trichirappalli, vellore, viluppuram, virudhunagar } from '@/constants/signaturedishes'
+
 
 
 const Signature = () => {
@@ -751,18 +751,14 @@ const Signature = () => {
                 </div>
                 <h3 className="bold-20 lg:bold-20 mt-4 text-center text-sm text-gray-700">{product.name}</h3>
               </a>
-            ))}
-
-         
+            ))}       
           </div>
 
         </Accordion>
 
-       
-
-        <Accordion title="Tiruvannamalai">
+        <Accordion title="Thiruvannamalai">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
-            {tiruvannamalai.map((product) => (
+            {thiruvannamalai.map((product) => (
               <a key={product.id} href={product.href} className="group">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                   <Image
@@ -781,7 +777,6 @@ const Signature = () => {
                 <h3 className="bold-20 lg:bold-20 mt-4 text-center text-sm text-gray-700">{product.name}</h3>
               </a>
             ))}
-
           </div>
 
         </Accordion>

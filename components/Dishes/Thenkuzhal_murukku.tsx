@@ -1,15 +1,13 @@
 'use client'
-import { intro, reviews, ingredient_pic, list, time, prep, notes, rcintro, ingredients, info } from '@/constants/dishes/thenkuzhal_murukku'
+import { top, intro, reviews, ingredient_pic, list, time, prep, notes, rcintro, ingredients, info, diet } from '@/constants/dishes/thenkuzhal_murukku'
 import React, { useState } from 'react'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import { StarIcon } from '@heroicons/react/20/solid'
 import PrintButton from '../PrintButton'
-
 
 function classNames(...classes: any[]) {
     return classes.filter(Boolean).join(' ')
 }
-
 
 const Thenkuzhal_murukku = () => {
     const [isChecked, setIsChecked] = useState(false);
@@ -20,28 +18,27 @@ const Thenkuzhal_murukku = () => {
 
     const [numServings, setNumServings] = useState(1); // Default servings
 
-    
-
     const handleServingsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newServings = parseInt(e.target.value);
         setNumServings(newServings);
     };
 
-
     return (
         <section>
-            <div className="mx-auto max-w-full px-4 place-content-center sm:px-6 lg:px-40" >
-                <Image
-                    src='/dishes/chicken65/top.jpg'
-                    alt="phones"
-                    style={{
-                        width: '100%',
-                        height: 'auto',
-                    }}
-                    width={500}
-                    height={300}
-                    className='flex flex-1 items-center justify-end rounded-xl' />
-            </div>
+
+            {top.map((person, index) => (
+                <div key={index} className="mx-auto max-w-full px-4 place-content-center sm:px-6 lg:px-40" >
+                    <Image
+                        src={person.imageSrc}
+                        alt={person.topic}
+                        loading='lazy'
+                        placeholder='blur'
+                        blurDataURL={person.imageSrc}
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className='flex flex-1 items-center justify-end rounded-xl' />
+                </div>))}
 
             {intro.map((person, index) => (
                 <div key={index}>
@@ -79,7 +76,6 @@ const Thenkuzhal_murukku = () => {
                         <li key={person.name} className="flex justify-between gap-x-6 py-5">
                             <div className="flex min-w-0 gap-x-4">
 
-
                                 <Image
                                     src={person.imageUrl}
                                     alt={person.name}
@@ -100,47 +96,45 @@ const Thenkuzhal_murukku = () => {
                 </ul>
             </div>
 
-            <div className="mt-5 mb-5 place-content-center max-w-full px-40">
+            <div className="px-40">
                 {info.map((person) => (
                     <div key={person.name} className='max-container relative flex w-full flex-col justify-between bg-white bg-cover'>
-                        <h2 className="text-xl font-bold mb-5 mt-5 ">{person.name}</h2>
+                        {/* <h2 className="text-xl font-bold mb-5 mt-5 ">{person.name}</h2> */}
                         <Image
                             src={person.imageSrc}
                             alt={person.imageAlt}
-                            style={{
-                                width: 'auto',
-                                height: 'auto',
-                            }}
+                            loading='lazy'
+                            placeholder='blur'
+                            blurDataURL={person.imageSrc}
                             width={600}
                             height={900}
-                            className='flex flex-1 rounded-xl mb-5' />
+                            className='flex flex-1 rounded-xl' />
                     </div>
                 ))}
             </div>
 
-
-            <div className="mt-5 mb-5 place-content-center max-w-full px-40">
+            <div className="mt-5 mb-5 place-content-center max-w-full px-4 lg:px-40">
                 <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                     <dt className="text-base font-semibold leading-6 text-gray-900">MAIN INGREDIENTS</dt>
 
                     <div className="bg-white col-span-2">
                         <div className="grid grid-cols-1  gap-x-8 gap-y-16 lg:grid-cols-4">
-                            {ingredient_pic.map((product) => (
-                                <a key={product.id} href={product.href} className="group">
+                            {ingredient_pic.map((person) => (
+                                <a key={person.id} href={person.href} className="group">
                                     <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-12 xl:aspect-w-10 ">
                                         <Image
-                                            src={product.imageSrc}
-                                            alt={product.imageAlt}
-                                            style={{
-                                                width: '100%',
-                                                height: 'auto',
-                                            }}
+                                            src={person.imageSrc}
+                                            alt={person.imageAlt}
+                                            loading='lazy'
+                                            placeholder='blur'
+                                            blurDataURL={person.imageSrc}
+                                            layout="responsive"
                                             width={500}
                                             height={500}
                                             className="h-full w-full object-cover object-center group-hover:opacity-75"
                                         />
                                     </div>
-                                    <h3 className="mt-1 pt-2 font-semibold text-center text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{product.name}</h3>
+                                    <h3 className="mt-1 pt-2 font-semibold text-center text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{person.name}</h3>
                                 </a>
                             ))}
                         </div>
@@ -150,12 +144,10 @@ const Thenkuzhal_murukku = () => {
                 </div>
             </div>
 
-
-
-            <div className="mt-5 mb-5 place-content-center max-w-full px-40">
+            <div className="mt-5 mb-5 place-content-center max-w-full px-4 lg:px-40">
                 <div className="mb-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                     <dt className=" text-base font-semibold leading-6 text-gray-900">RECIPE CARD</dt>
-                    <dd className="recipe-card p-4 border-2 border-gray-900 shadow-lg rounded-lg overflow-hidden mt-1 text-base leading-6 text-gray-900 sm:col-span-2 sm:mt-0">
+                    <dd className="recipe-card p-4 border-2 border-gray-900 shadow-lg rounded-lg overflow-hidden mt-1 text-base leading-6 text-gray-900 sm:col-span-3 sm:mt-0 xl:col-span-2 xl:mt-0">
                         {rcintro.map((person, index) => (
                             <div key={index}>
                                 <h2 className="text-3xl font-semibold mb-4">{person.topic}</h2>
@@ -169,11 +161,7 @@ const Thenkuzhal_murukku = () => {
                                     <div className="flex max-w-lg flex-col">
                                         <Image
                                             src={person.imageSrc}
-                                            alt="phones"
-                                            style={{
-                                                width: 'auto%',
-                                                height: 'auto%',
-                                            }}
+                                            alt={person.topic}
                                             width={500}
                                             height={500}
                                             className='flex flex-1 rounded-md items-center justify-end' />
@@ -198,16 +186,12 @@ const Thenkuzhal_murukku = () => {
                             </div>
                         </div>
 
-                        <div className="grid grid-flow-row-dense grid-cols-10 mb-2">
+                        <div className="grid lg:grid-flow-row-dense sm:grid-flow-column-dense mb-2 lg:grid lg:grid-cols-10">
 
                             <div className="my-2 border-r-2 border-gray-200">
                                 <Image
                                     src="/Icons/time.png"
                                     alt="phones"
-                                    style={{
-                                        width: 'auto',
-                                        height: 'auto',
-                                    }}
                                     width={40}
                                     height={40}
                                     className='rounded-md items-center justify-end'
@@ -228,16 +212,13 @@ const Thenkuzhal_murukku = () => {
 
                         </div>
 
-                        <div className="grid grid-flow-row-dense grid-cols-10 mb-2">
+                        <div className="grid lg:grid-flow-row-dense sm:grid-flow-column-dense mb-2 lg:grid lg:grid-cols-10">
 
                             <div className="my-2 border-r-2 border-gray-200">
                                 <Image
                                     src="/Icons/cooking.png"
                                     alt="phones"
-                                    style={{
-                                        width: 'auto',
-                                        height: 'auto',
-                                    }}
+
                                     width={40}
                                     height={40}
                                     className='rounded-md items-center justify-end'
@@ -305,53 +286,48 @@ const Thenkuzhal_murukku = () => {
 
                             </ul>))}
 
-                        {/* <h3 className="text-xl font-bold text-gray-800 border-t border-gray-200 pt-4">Assembly</h3>
-                        <ol className="list-decimal font-semibold list-inside mb-2">
-                            <li>
-                                <span className="font-normal text-gray-900 dark:text-black">Take 1 cup puttu flour in a mixing bowl or a pan.</span>
-                            </li>
-                            <li>
-                                <span className="font-normal text-gray-900 dark:text-black">Add salt to taste.</span>
-                            </li>
-                            <li>
-                                <span className="font-normal text-gray-900 dark:text-black">Sprinkle water gradually while mixing until the mixture resembles coarse crumbs. The mixture should hold shape when pressed together but crumble easily.</span>
-                            </li>
-                        </ol> */}
-
-                        {/* <h3 className="text-xl font-bold text-gray-800 border-t border-gray-200 pt-4">Notes</h3>
+                        <h3 className="text-xl font-bold text-gray-800 border-t border-gray-200 pt-4">Notes</h3>
                         {notes.map((ingredient, index: number) => (
                             <ol key={index} className="mb-2 list-disc  list-inside">
                                 <li>
                                     <span className="italic text-gray-900 dark:text-black">{ingredient.point}</span>
                                 </li>
 
-                            </ol>))} */}
+                            </ol>))}
 
                         <h3 className="text-xl font-bold text-gray-800 border-t border-gray-200 pt-4">Nutrition Info (Approximate Values)</h3>
                         <dl className="pt-4 mb-4 mx-auto place-content-center max-w-full sm:grid grid-cols-1 sm:gap-x-8 sm:gap-y-16 lg:grid-cols-2 col-span-2">
+
                             <div className="flex max-w-lg flex-col">
                                 <Image
                                     src="/NutritionLabel.png"
                                     alt="phones"
-                                    style={{
-                                        width: 'auto',
-                                        height: 'auto%',
-                                    }}
-                                    width={500}
-                                    height={500}
+                                    width={700}
+                                    height={1400}
                                     className='flex flex-1 rounded-md items-center justify-end' />
                             </div>
+
+                            <div className="flex max-w-lg flex-col ml-5">
+                                <h3 className="text-xl font-bold text-gray-800 py-2">Benefits</h3>
+                                {diet.map((ingredient, index: number) => (
+                                    <div key={index}>
+                                        <ol className="mb-2 list-disc  list-inside text-justify">
+                                            <li>
+                                                <span className="italic  text-gray-900 dark:text-black">{ingredient.point}</span>
+                                            </li>
+                                        </ol>
+                                    </div>))}
+                            </div>
+
                         </dl>
 
                     </dd>
 
-
-
                 </div>
             </div >
 
-            <div className="mt-5 mb-5 place-content-center max-w-full px-40">
-                <div className="mb-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+            <div className="mt-5 mb-5 place-content-center max-w-full px-4 lg:px-40">
+                <div className="mb-5 sm:grid sm:grid-cols-3">
                     <dt className="text-base font-semibold leading-6 text-gray-900"></dt>
                     <dd className="mt-1 text-base font-bold leading-6 text-gray-700 sm:col-span-2 sm:mt-0">RATING AND COMMENTS
                     </dd>
@@ -365,21 +341,20 @@ const Thenkuzhal_murukku = () => {
                                         key={rating}
                                         className={classNames(
                                             reviews.average > rating ? 'text-gray-900' : 'text-gray-200',
-                                            'h-8 w-8 '
+                                            'h-4 w-4 '
                                         )}
                                         aria-hidden="true"
                                     />
                                 ))}
                             </div>
                             <p className="sr-only">{reviews.average} out of 5 stars</p>
-                            <a href={reviews.href} className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                            <a href={reviews.href} className="ml-3 text-sm font-normal text-indigo-600 hover:text-indigo-500">
                                 {reviews.totalCount} reviews
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-
 
         </section >
     )

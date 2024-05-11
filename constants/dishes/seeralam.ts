@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/top.jpg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/top.jpg',
         topic: 'Seeralam',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'சீராளம்',
         topic: 'Seeralam',
         des: `Seeralam is a delicious and healthy South Indian evening snack made from a blend of lentils and rice. The lentil idlis are steamed, diced, and then tossed in a flavorful tempering of spices, onions, and fresh coconut. This dish provides a nutrient-dense option for children or anyone looking for a light yet satisfying snack.`,
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/flag.jpg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Seeralam',
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/info.svg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/info.svg',
         imageAlt: 'A healthy snack made from steamed lentil idlis, tossed in a tempering of spices and fresh coconut',
     },
 ];
@@ -27,28 +27,28 @@ export const ingredient_pic = [
         id: 1,
         name: 'Toor Dal',
         href: '#',
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/toor_dal.jpg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/toor_dal.jpg',
         imageAlt: 'Toor Dal',
     },
     {
         id: 2,
         name: 'Moong Dal',
         href: '#',
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/moong_dal.jpg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/moong_dal.jpg',
         imageAlt: 'Moong Dal',
     },
     {
         id: 3,
         name: 'Chana Dal',
         href: '#',
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/chana_dal.jpg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/chana_dal.jpg',
         imageAlt: 'Chana Dal',
     },
     {
         id: 4,
         name: 'Rice',
         href: '#',
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/rice.jpg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/rice.jpg',
         imageAlt: 'Rice',
     },
     // Add other ingredients if needed
@@ -86,7 +86,7 @@ export const rcintro = [
     {
         topic: 'Seeralam',
         des: `Seeralam is a delicious and healthy South Indian evening snack made from a blend of lentils and rice. The lentil idlis are steamed, diced, and then tossed in a flavorful tempering of spices, onions, and fresh coconut. This dish provides a nutrient-dense option for children or anyone looking for a light yet satisfying snack.`,
-        imageSrc: '/dishes/signature/tiruvallur/seeralam/top.jpg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/top.jpg',
     },
   ];
   

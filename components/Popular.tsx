@@ -11,7 +11,7 @@ const Popular = () => {
             <div className="mx-auto max-w-2xl px-4 py-6 sm:px-6 sm:py-6 lg:max-w-7xl lg:px-8">
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Popular Dishes</p>
                 <h2 className="mt-2 text-base font-semibold leading-7 text-gray-600 lg:w-2/3">
-                    Tamil Nadu, a state in southern India, boasts a rich culinary tradition with a wide array of delicious dishes. Here are some signature dishes from Tamil Nadu.</h2>
+                    Tamil Nadu, a state in southern India, boasts a rich culinary tradition with a wide array of delicious dishes. Here are some popular dishes from Tamil Nadu.</h2>
             </div>
 
             <div className="bg-white">

@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tirunelveli/nellai_fish_curry/top.jpg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_fish_curry/top.jpg',
         topic: 'Nellai Fish Curry',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'நெல்லை மீன் கறி',
         topic: 'Nellai Fish Curry',
         des: `Nellai Fish Curry is a flavorful and spicy fish curry from the Tirunelveli region of Tamil Nadu. The dish combines a smooth masala paste with tamarind pulp, coconut, and aromatic spices, creating a rich and tangy gravy. Gingelly oil enhances the flavor, while green chillies and small onions add a distinctive aroma. The fish is gently cooked in the curry until perfectly tender and is best enjoyed with steamed rice or traditional South Indian breads.`,
-        imageSrc: '/dishes/signature/tirunelveli/nellai_fish_curry/flag.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Nellai Fish Curry',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_fish_curry/info.svg',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/info.svg',
         imageAlt: 'A tangy and spicy fish curry from Tirunelveli, Tamil Nadu',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Fish',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_fish_curry/fish.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/fish.jpg',
         imageAlt: 'Fish',
     },
     {
         id: 2,
         name: 'Tamarind',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_fish_curry/tamarind.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/tamarind.jpg',
         imageAlt: 'Tamarind',
     },
     {
         id: 3,
         name: 'Gingelly Oil (Sesame Oil)',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/nellai_fish_curry/gingelly_oil.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/gingelly_oil.jpg',
         imageAlt: 'Gingelly Oil (Sesame Oil)',
     },
     // Add other ingredients as required
@@ -79,7 +79,7 @@ export const rcintro = [
     {
         topic: 'Nellai Fish Curry',
         des: `Nellai Fish Curry is a flavorful and spicy fish curry from the Tirunelveli region of Tamil Nadu. The dish combines a smooth masala paste with tamarind pulp, coconut, and aromatic spices, creating a rich and tangy gravy. Gingelly oil enhances the flavor, while green chillies and small onions add a distinctive aroma. The fish is gently cooked in the curry until perfectly tender and is best enjoyed with steamed rice or traditional South Indian breads.`,
-        imageSrc: '/dishes/signature/tirunelveli/nellai_fish_curry/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/top.jpg',
     },
   ];
   

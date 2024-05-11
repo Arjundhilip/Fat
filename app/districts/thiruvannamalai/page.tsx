@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import { first, agri, climate, geo, industries, pop, popular, history } from '@/constants/districts/tiruvannamalai'
-import { tiruvannamalai } from '@/constants/signaturedishes'
+import { first, agri, climate, geo, industries, pop, popular, history } from '@/constants/districts/thiruvannamalai'
+import { thiruvannamalai } from '@/constants/signaturedishes'
 import Accordion from "@/components/Accordion";
 import Accordion_head from '@/components/Accordion_head';
 
@@ -11,7 +11,7 @@ function classNames(...classes: any[]) {
 }
 
 
-const Tiruvannamalai = () => {
+const Thiruvannamalai = () => {
     return (
         <section>
 
@@ -52,7 +52,7 @@ const Tiruvannamalai = () => {
             <div className=" max-container flex w-full flex-col justify-between gap-32 bg-white bg-cover bg-center bg-no-repeat px-6 py-12 text-black sm:flex-row sm:gap-12 sm:py-8 lg:px-20 2xl:rounded-5xl">
                 <div className='max-container relative flex w-full flex-col justify-between bg-white bg-cover'>
 
-                    <Accordion_head title="Glimpse of Tiruvannamalai">
+                    <Accordion_head title="Glimpse of thiruvannamalai">
 
                         <h2 className="text-xl font-bold text-gray-900">Geographical Features</h2>
                         <div className="grid grid-cols-1 gap-x-8 gap-y-8 lg:grid-cols-4 my-2">
@@ -149,7 +149,7 @@ const Tiruvannamalai = () => {
 
                     </Accordion_head>
 
-                    <Accordion_head title="History of Tiruvannamalai">
+                    <Accordion_head title="History of thiruvannamalai">
                         <Image
                             src={history[0].imageUrl1}
                             alt="phones"
@@ -162,7 +162,7 @@ const Tiruvannamalai = () => {
                             className='flex flex-1 rounded-xl' />
                     </Accordion_head>
 
-                    <Accordion_head title="Culture of Tiruvannamalai">
+                    <Accordion_head title="Culture of thiruvannamalai">
                         <Image
                             src={history[1].imageUrl1}
                             alt="phones"
@@ -180,7 +180,7 @@ const Tiruvannamalai = () => {
 
             <div className=" max-container flex w-full flex-col justify-between gap-32 bg-white bg-cover bg-center bg-no-repeat px-6 py-12 text-black sm:flex-column sm:gap-12 sm:py-8 lg:px-20 2xl:rounded-5xl">
                 <div className='max-container relative flex w-full flex-col justify-between bg-white bg-cover'>
-                    <h2 className="text-xl font-bold">Food Culture of Tiruvannamalai</h2>
+                    <h2 className="text-xl font-bold">Food Culture of thiruvannamalai</h2>
                     <Image
                         src={history[2].imageUrl1}
                         alt="phones"
@@ -197,7 +197,7 @@ const Tiruvannamalai = () => {
 
             {/* <div className="max-container flex w-full flex-col justify-between  bg-white bg-cover px-6  lg:px-20">
                 <Image
-                    src="/districts/infographics/Tiruvannamalai.svg"
+                    src="/districts/infographics/thiruvannamalai.svg"
                     alt="Map of virudhunagar"
                     style={{
                         width: '100%',
@@ -215,7 +215,7 @@ const Tiruvannamalai = () => {
                 </div>
                 <h2 className="my-4 text-center text-md tracking-tight sm:text-3xl">Signature Dishes</h2>
                 <div className="mb-8 grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
-                    {tiruvannamalai.map((product) => (
+                    {thiruvannamalai.map((product) => (
                         <a key={product.id} href={product.href} className="group">
                             <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                                 <Image
@@ -254,4 +254,4 @@ const Tiruvannamalai = () => {
     )
 }
 
-export default Tiruvannamalai
+export default Thiruvannamalai

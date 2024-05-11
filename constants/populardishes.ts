@@ -86,7 +86,7 @@ export const popular = [
     {
         name: 'Aattu Eeral Kolambu',
         href: '/dishes/popular/aatu_eeral_kolambu',
-        imageSrc: '/dishes/popular/aatu_eeral_kolambu.jpg',
+        imageSrc: '/dishes/popular/aattu_eeral_kolambu.jpg',
         imageAlt: 'Aattu Eeral Kolambu.'
     },
     {
@@ -191,12 +191,12 @@ export const popular = [
         imageSrc: '/dishes/popular/aviyal.jpg',
         imageAlt: 'Aviyal.'
     },
-    {
-        name: 'Avicha Meen',
-        href: '/dishes/popular/avicha_meen',
-        imageSrc: '/dishes/popular/avicha_meen.jpg',
-        imageAlt: 'Avicha Meen.'
-    },
+    // {
+    //     name: 'Avicha Meen',
+    //     href: '/dishes/popular/avicha_meen',
+    //     imageSrc: '/dishes/popular/avicha_meen.jpg',
+    //     imageAlt: 'Avicha Meen.'
+    // },
     {
         name: 'Seeyam',
         href: '/dishes/popular/seeyam',
@@ -284,7 +284,7 @@ export const popular = [
     {
         name: 'Manikaram Spicy Vadagam Curry',
         href: '/dishes/popular/manikaram_spicy_vadagam_curry',
-        imageSrc: '/dishes/popular/manikaram_spicy_vadagam_curry.jpg',
+        imageSrc: '/dishes/popular/manikaran_spicy_vadagam_curry.jpg',
         imageAlt: 'Manikaram Spicy Vadagam Curry.'
     },
     {
@@ -305,12 +305,12 @@ export const popular = [
         imageSrc: '/dishes/popular/nandu_thakkali_perattal.jpg',
         imageAlt: 'Nandu Thakkali Perattal.'
     },
-    {
-        name: 'Thengai Kuzhambu',
-        href: '/dishes/popular/thengai_kuzhambu',
-        imageSrc: '/dishes/popular/thengai_kuzhambu.jpg',
-        imageAlt: 'Thengai Kuzhambu.'
-    },
+    // {
+    //     name: 'Thengai Kuzhambu',
+    //     href: '/dishes/popular/thengai_kuzhambu',
+    //     imageSrc: '/dishes/popular/thengai_kuzhambu.jpg',
+    //     imageAlt: 'Thengai Kuzhambu.'
+    // },
     {
         name: 'Kachayam',
         href: '/dishes/popular/kachayam',

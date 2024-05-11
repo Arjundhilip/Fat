@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/tirunelveli/iruttukadai_halwa/top.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/top.jpg',
         topic: 'Iruttukadai Halwa',
     },
 ];
@@ -10,14 +10,14 @@ export const intro = [
         tamilheading: 'இருட்டுக்கடை அல்வா',
         topic: 'Iruttukadai Halwa',
         des: `Iruttukadai Halwa is a traditional South Indian dessert made with whole samba wheat, sugar, and ghee. This rich and creamy sweet is prepared by extracting wheat milk and cooking it slowly with caramelized sugar, saffron, and cardamom powder. The addition of roasted cashews gives it a delightful crunch. This dessert is perfect for special occasions or as a festive treat.`,
-        imageSrc: '/dishes/signature/tirunelveli/iruttukadai_halwa/flag.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/flag.jpg',
     },
 ];
 
 export const info = [
     {
         name: 'Iruttukadai Halwa',
-        imageSrc: '/dishes/signature/tirunelveli/iruttukadai_halwa/info.svg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/info.svg',
         imageAlt: 'A rich halwa made from samba wheat milk, caramelized sugar, and ghee',
     },
 ];
@@ -27,21 +27,21 @@ export const ingredient_pic = [
         id: 1,
         name: 'Whole Samba Wheat',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/iruttukadai_halwa/whole_samba_wheat.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/whole_samba_wheat.jpg',
         imageAlt: 'Whole Samba Wheat',
     },
     {
         id: 2,
         name: 'Sugar',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/iruttukadai_halwa/sugar.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/sugar.jpg',
         imageAlt: 'Sugar',
     },
     {
         id: 3,
         name: 'Ghee',
         href: '#',
-        imageSrc: '/dishes/signature/tirunelveli/iruttukadai_halwa/ghee.jpg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/ghee.jpg',
         imageAlt: 'Ghee',
     },
     // Add other ingredients if required
@@ -77,9 +77,9 @@ export const list = [
 
 export const rcintro = [
     {
-        topic: 'Ukkarai',
-        des: `Ukkarai, also known as Okkarai, is a traditional sweet from Tamil Nadu, prepared with chana dal, cane sugar, and coconut. It's flavored with cardamom and garnished with roasted cashews. This crumbly dessert is popular during festivals and special occasions like Navratri, offering a unique blend of flavors and textures that make it a delightful treat.`,
-        imageSrc: '/dishes/signature/tirunelveli/ukkarai/top.jpg',
+        topic: 'Iruttukadai Halwa',
+        des: `Iruttukadai Halwa is a traditional South Indian dessert made with whole samba wheat, sugar, and ghee. This rich and creamy sweet is prepared by extracting wheat milk and cooking it slowly with caramelized sugar, saffron, and cardamom powder. The addition of roasted cashews gives it a delightful crunch. This dessert is perfect for special occasions or as a festive treat.`,
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/top.jpg',
     },
   ];
   

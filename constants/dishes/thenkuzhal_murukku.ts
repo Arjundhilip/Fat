@@ -1,6 +1,6 @@
 export const top = [
     {
-        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/top.jpg',
+        imageSrc:   '/dishes/signature/Trichirappalli/thenkuzhal_murukku/top.jpg',
         topic: 'Thenkuzhal Murukku',
     },
 ];

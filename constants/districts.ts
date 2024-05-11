@@ -198,9 +198,9 @@ export const districts = [
         place: 'Knitwear capital'
     },
     {
-        name: 'Tiruvannamalai',
-        href: '/districts/tiruvannamalai',
-        imageUrl: '/districts/ls_districts/tiruvannamalai.jpg',
+        name: 'Thiruvannamalai',
+        href: '/districts/thiruvannamalai',
+        imageUrl: '/districts/ls_districts/thiruvannamalai.jpg',
         place: 'Annamalaiyar temple'
     },
     {
