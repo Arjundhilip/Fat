@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
   {
     name: "Cuddalore Fish Curry",
-    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/info.svg",
+    imageSrc: "/dishes/signature/cuddalore/cuddalore_fish_curry/info.jpeg",
     imageAlt: "A beloved coastal fish curry",
   },
 ];
@@ -51,7 +51,7 @@ export const list = [
   {
     name: "Type of Dish:",
     role: "Main Course",
-    imageUrl: "/icons/dish.png",
+    imageUrl: "/icons/climate.png",
   },
   {
     name: "City:",

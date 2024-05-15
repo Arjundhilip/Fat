@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Seepu Seedai',
-        imageSrc: '/dishes/signature/sivagangai/seepu_seedai/info.svg',
+        imageSrc: '/dishes/signature/sivagangai/seepu_seedai/info.jpeg',
         imageAlt: 'A Chettinad-style murukku known for its unique striped appearance',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snack',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

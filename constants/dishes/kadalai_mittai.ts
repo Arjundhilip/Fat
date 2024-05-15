@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Kadalai Mittai',
-        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/info.svg',
+        imageSrc: '/dishes/signature/Thoothukudi/kadalai_mittai/info.jpeg',
         imageAlt: 'A crunchy and nutty South Indian sweet made with roasted peanuts and jaggery',
     },
 ];
@@ -44,7 +44,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

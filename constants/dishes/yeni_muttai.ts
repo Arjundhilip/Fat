@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Yeni Muttai',
-        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/info.svg',
+        imageSrc: '/dishes/signature/thoothukudi/yeni_muttai/info.jpeg',
         imageAlt: 'A traditional sweet made with rice and urad dal, soaked in a palm jaggery syrup',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

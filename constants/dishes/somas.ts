@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Somas',
-        imageSrc: '/dishes/signature/perambalur/somas/info.svg',
+        imageSrc: '/dishes/signature/perambalur/somas/info.jpeg',
         imageAlt: 'A delightful Perambalur sweet snack',
     },
 ];
@@ -53,7 +53,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snacks',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

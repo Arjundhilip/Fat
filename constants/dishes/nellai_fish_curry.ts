@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Nellai Fish Curry',
-        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/info.svg',
+        imageSrc: '/dishes/signature/thirunelveli/nellai_fish_curry/info.jpeg',
         imageAlt: 'A tangy and spicy fish curry from Tirunelveli, Tamil Nadu',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

@@ -17,19 +17,19 @@ export const intro = [
 export const info = [
     {
         name: 'Kara Sev',
-        imageSrc: '/dishes/signature/virudhunagar/kara_sev/info.svg',
+        imageSrc: '/dishes/signature/virudhunagar/kara_sev/info.jpeg',
         imageAlt: 'A crispy, spicy snack made with besan and rice flour, seasoned with black pepper and cumin, perfect for festive celebrations or as a teatime treat.',
     },
 ];
 
 export const ingredient_pic = [
-    {
-        id: 1,
-        name: 'Gram Flour',
-        href: '#',
-        imageSrc: '/dishes/signature/virudhunagar/kara_sev/gram_flour.jpg',
-        imageAlt: 'Gram Flour',
-    },
+    // {
+    //     id: 1,
+    //     name: 'Gram Flour',
+    //     href: '#',
+    //     imageSrc: '/dishes/signature/virudhunagar/kara_sev/gram_flour.jpg',
+    //     imageAlt: 'Gram Flour',
+    // },
     {
         id: 2,
         name: 'Rice Flour',
@@ -58,7 +58,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snack',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

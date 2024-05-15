@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Milagu Vadai',
-        imageSrc: '/dishes/signature/thiruvannamalai/milagu_vadai/info.svg',
+        imageSrc: '/dishes/signature/thiruvannamalai/milagu_vadai/info.jpeg',
         imageAlt: 'A traditional crispy vadai made from urad dal, black pepper, and rice flour',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snack',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

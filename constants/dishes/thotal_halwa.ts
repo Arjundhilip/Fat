@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Thotal Halwa',
-        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/info.svg',
+        imageSrc: '/dishes/signature/ramanathapuram/thotal_halwa/info.jpeg',
         imageAlt: 'A traditional Kilakarai dessert',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Akkara Adisil',
-        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/info.svg',
+        imageSrc: '/dishes/signature/Trichirappalli/akkara_adisil/info.jpeg',
         imageAlt: 'A traditional Iyengar-style sweet made with rice, moong dal, and generous amounts of milk',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
   {
     name: "Kozhi Vellai Biriyani",
-    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/info.svg",
+    imageSrc: "/dishes/signature/coimbatore/kongunadu_kozhi_vella_biriyani/info.jpeg",
     imageAlt: "A unique South Indian biriyani",
   },
 ];
@@ -51,7 +51,7 @@ export const list = [
   {
     name: "Type of Dish:",
     role: "Main Course",
-    imageUrl: "/icons/dish.png",
+    imageUrl: "/icons/climate.png",
   },
   {
     name: "City:",

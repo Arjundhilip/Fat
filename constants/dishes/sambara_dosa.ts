@@ -22,7 +22,7 @@ export const intro = [
 export const info = [
     {
         name: '',
-        imageSrc: '/dishes/signature/Chennai/vadacurry/info.svg',
+        imageSrc: '/dishes/signature/Chennai/vadacurry/info.jpeg',
         imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
 ]

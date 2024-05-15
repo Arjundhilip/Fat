@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Kozhi Milagu Varuval',
-        imageSrc: '/dishes/signature/sivagangai/kozhi_milagu_varuval/info.svg',
+        imageSrc: '/dishes/signature/sivagangai/kozhi_milagu_varuval/info.jpeg',
         imageAlt: 'A spicy chicken dish with black pepper',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Appetizer, Starters',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Degree Filter Coffee',
-        imageSrc: '/dishes/signature/thanjavur/degree_filter_coffee/info.svg',
+        imageSrc: '/dishes/signature/thanjavur/degree_filter_coffee/info.jpeg',
         imageAlt: 'A rich and aromatic South Indian coffee brewed using a traditional filter',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Beverage',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

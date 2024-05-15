@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Seeralam',
-        imageSrc: '/dishes/signature/thiruvallur/seeralam/info.svg',
+        imageSrc: '/dishes/signature/thiruvallur/seeralam/info.jpeg',
         imageAlt: 'A healthy snack made from steamed lentil idlis, tossed in a tempering of spices and fresh coconut',
     },
 ];
@@ -58,7 +58,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snack',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

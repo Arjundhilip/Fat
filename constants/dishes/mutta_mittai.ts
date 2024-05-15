@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Mutta Mittai',
-        imageSrc: '/dishes/signature/villupuram/mutta_mittai/info.svg',
+        imageSrc: '/dishes/signature/villupuram/mutta_mittai/info.jpeg',
         imageAlt: 'A rich and fragrant sweet made with eggs, sugar, almonds, and milk powder, cooked gently for a soft, melt-in-the-mouth treat.',
     },
 ];
@@ -58,7 +58,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

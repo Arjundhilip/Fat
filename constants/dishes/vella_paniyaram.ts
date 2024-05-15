@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Vella Paniyaram',
-        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/info.svg',
+        imageSrc: '/dishes/signature/pudukottai/vella_paniyaram/info.jpeg',
         imageAlt: 'A traditional sweet snack from Tamil Nadu',
     },
 ];
@@ -44,7 +44,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

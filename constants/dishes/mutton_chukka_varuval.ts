@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Mutton Chukka Varuval',
-        imageSrc: '/dishes/signature/madurai/mutton_chukka_varuval/info.svg',
+        imageSrc: '/dishes/signature/madurai/mutton_chukka_varuval/info.jpeg',
         imageAlt: 'A traditional South Indian mutton dish',
     },
 ];
@@ -37,7 +37,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

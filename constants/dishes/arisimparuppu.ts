@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
   {
     name: "Arisimparuppu",
-    imageSrc: "/dishes/signature/coimbatore/arisimparuppu/info.svg",
+    imageSrc: "/dishes/signature/coimbatore/arisimparuppu/info.jpeg",
     imageAlt: "A comforting dish",
   },
 ];
@@ -44,7 +44,7 @@ export const list = [
   {
     name: "Type of Dish:",
     role: "Main Course",
-    imageUrl: "/icons/dish.png",
+    imageUrl: "/icons/climate.png",
   },
   {
     name: "Decade:",

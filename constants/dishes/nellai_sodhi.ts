@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Nellai Sodhi',
-        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/info.svg',
+        imageSrc: '/dishes/signature/Thirunelveli/nellai_sodhi/info.jpeg',
         imageAlt: 'A creamy and flavorful coconut milk-based gravy from Tirunelveli',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

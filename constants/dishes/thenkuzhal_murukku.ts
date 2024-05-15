@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Thenkuzhal Murukku',
-        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/info.svg',
+        imageSrc: '/dishes/signature/Trichirappalli/thenkuzhal_murukku/info.jpeg',
         imageAlt: 'A traditional South Indian snack made with rice flour and urad dal flour',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snack',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

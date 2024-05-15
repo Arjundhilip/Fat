@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Chinthamani Chicken',
-        imageSrc: '/dishes/signature/tiruppur/chinthamani_chicken/info.svg',
+        imageSrc: '/dishes/signature/tiruppur/chinthamani_chicken/info.jpeg',
         imageAlt: 'A rustic, dry-roasted chicken dish flavored with shallots, dry red chillies, and coconut',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Side Dish',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

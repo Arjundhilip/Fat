@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'kancheepuram Idli',
-        imageSrc: '/dishes/signature/kancheepuram/kancheepuram_idli/info.svg',
+        imageSrc: '/dishes/signature/kancheepuram/kancheepuram_idli/info.jpeg',
         imageAlt: 'A traditional South Indian temple idli',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

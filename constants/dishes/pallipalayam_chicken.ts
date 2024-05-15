@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
   {
     name: "Pallipalayam Chicken",
-    imageSrc: "/dishes/signature/erode/pallipalayam_chicken/info.svg",
+    imageSrc: "/dishes/signature/erode/pallipalayam_chicken/info.jpeg",
     imageAlt: "A rustic and spicy chicken dish",
   },
 ];
@@ -51,7 +51,7 @@ export const list = [
   {
     name: "Type of Dish:",
     role: "Main Course",
-    imageUrl: "/icons/dish.png",
+    imageUrl: "/icons/climate.png",
   },
   {
     name: "City:",

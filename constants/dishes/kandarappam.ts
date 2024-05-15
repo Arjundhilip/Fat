@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Kandarappam',
-        imageSrc: '/dishes/signature/sivagangai/kandarappam/info.svg',
+        imageSrc: '/dishes/signature/sivagangai/kandarappam/info.jpeg',
         imageAlt: 'A deep-fried sweet delicacy made with rice, lentils, and jaggery',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

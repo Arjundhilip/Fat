@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Thengai Muttai',
-        imageSrc: '/dishes/signature/karur/thengai_muttai/info.svg',
+        imageSrc: '/dishes/signature/karur/thengai_muttai/info.jpeg',
         imageAlt: 'A crunchy South Indian sweet made with grated coconut and jaggery',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

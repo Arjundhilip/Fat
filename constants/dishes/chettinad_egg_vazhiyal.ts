@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Chettinad Egg Vazhiyal',
-        imageSrc: '/dishes/signature/sivagangai/chettinad_egg_vazhiyal/info.svg',
+        imageSrc: '/dishes/signature/sivagangai/chettinad_egg_vazhiyal/info.jpeg',
         imageAlt: 'A spiced egg curry from Chettinad',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

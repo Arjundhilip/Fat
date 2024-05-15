@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Iruttukadai Halwa',
-        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/info.svg',
+        imageSrc: '/dishes/signature/thirunelveli/iruttukadai_halva/info.jpeg',
         imageAlt: 'A rich halwa made from samba wheat milk, caramelized sugar, and ghee',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Paanakam',
-        imageSrc: '/dishes/signature/tiruvallur/paanakam/info.svg',
+        imageSrc: '/dishes/signature/tiruvallur/paanakam/info.jpeg',
         imageAlt: 'A naturally sweet and spiced beverage made with jaggery, cardamom, and ginger powder',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Beverage',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

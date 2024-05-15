@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Azhagar Kovil Sambara Dosa',
-        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/info.svg',
+        imageSrc: '/dishes/signature/Trichirappalli/azhagar_kovil_sambara_dosa/info.jpeg',
         imageAlt: 'A thick temple-style dosa made with raw rice and black urad dal',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

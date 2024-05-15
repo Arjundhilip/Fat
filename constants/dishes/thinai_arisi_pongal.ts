@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Thinai Arisi Pongal',
-        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/info.svg',
+        imageSrc: '/dishes/signature/Ariyalur/thinai_arisi_pongal/info.jpeg',
         imageAlt: 'This traditional South Indian dish combines the nuttiness of foxtail millet with the creaminess of moong dal, creating a flavorful dish infused with spices that warm the soul.',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'Decade:',

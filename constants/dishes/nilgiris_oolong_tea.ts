@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Nilgiris Oolong Tea',
-        imageSrc: '/dishes/signature/nilgiris/nilgiris_oolong_tea/info.svg',
+        imageSrc: '/dishes/signature/nilgiris/nilgiris_oolong_tea/info.jpeg',
         imageAlt: 'A refreshing Nilgiris Oolong Tea',
     },
 ];
@@ -37,7 +37,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Beverage',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

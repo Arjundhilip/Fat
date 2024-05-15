@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
   {
     name: "Palani Panchamirtham",
-    imageSrc: "/dishes/signature/dindigul/palani_panchamirtham/info.svg",
+    imageSrc: "/dishes/signature/dindigul/palani_panchamirtham/info.jpeg",
     imageAlt: "A sacred dessert from Palani",
   },
 ];
@@ -51,7 +51,7 @@ export const list = [
   {
     name: "Type of Dish:",
     role: "Dessert",
-    imageUrl: "/icons/dish.png",
+    imageUrl: "/icons/climate.png",
   },
   {
     name: "City:",

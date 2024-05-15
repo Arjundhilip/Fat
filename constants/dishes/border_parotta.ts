@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Border Parotta',
-        imageSrc: '/dishes/signature/Tenkasi/border_parotta/info.svg',
+        imageSrc: '/dishes/signature/Tenkasi/border_parotta/info.jpeg',
         imageAlt: 'A renowned Tamil Nadu layered flatbread',
     },
 ];
@@ -44,7 +44,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

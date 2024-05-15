@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Jigarthanda',
-        imageSrc: '/dishes/signature/madurai/jigarthanda/info.svg',
+        imageSrc: '/dishes/signature/madurai/jigarthanda/info.jpeg',
         imageAlt: 'A traditional South Indian cooling drink',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

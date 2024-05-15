@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Paruthi Paal',
-        imageSrc: '/dishes/signature/madurai/paruthi_paal/info.svg',
+        imageSrc: '/dishes/signature/madurai/paruthi_paal/info.jpeg',
         imageAlt: 'A traditional beverage from Tamil Nadu',
     },
 ];
@@ -58,7 +58,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Beverage',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Thavala Adai',
-        imageSrc: '/dishes/signature/thanjavur/thavala_adai/info.svg',
+        imageSrc: '/dishes/signature/thanjavur/thavala_adai/info.jpeg',
         imageAlt: 'A savory South Indian snack made from rice and lentils',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

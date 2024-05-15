@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Srivilliputtur Palkova',
-        imageSrc: '/dishes/signature/virudhunagar/srivilliputtur_palkova/info.svg',
+        imageSrc: '/dishes/signature/virudhunagar/srivilliputtur_palkova/info.jpeg',
         imageAlt: 'A traditional sweet made by reducing milk to a thick consistency and adding sugar and cardamom for a rich and creamy dessert.',
     },
 ];
@@ -57,7 +57,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'Origin:',

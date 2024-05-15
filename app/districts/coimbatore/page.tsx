@@ -268,28 +268,7 @@ const Coimbatore = () => {
                         </a>
                     ))}
                 </div>
-                <h2 className="my-4 text-center text-md tracking-tight sm:text-3xl">Popular Dishes</h2>
-                <div className="mb-8 grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
-                    {popular.map((product) => (
-                        <a key={product.id} href={product.href} className="group">
-                            <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                <Image
-                                    src={product.imageSrc}
-                                    alt={product.imageAlt}
-                                     loading='lazy'
- 
-             
-            
-             
-                                    width={400}
-                                    height={400}
-                                    className="h-full w-full object-cover object-center group-hover:opacity-75"
-                                />
-                            </div>
-                            <h3 className="bold-20 lg:bold-20 mt-4 text-center text-sm text-gray-700">{product.name}</h3>
-                        </a>
-                    ))}
-                </div>
+                
             </div>
 
         </section>

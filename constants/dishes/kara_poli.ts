@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Kara Poli',
-        imageSrc: '/dishes/signature/nagapattinam/kara_poli/info.svg',
+        imageSrc: '/dishes/signature/nagapattinam/kara_poli/info.jpeg',
         imageAlt: 'A savory South Indian flatbread',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snacks',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

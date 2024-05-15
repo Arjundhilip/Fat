@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Vathu Curry Varuval',
-        imageSrc: '/dishes/signature/namakkal/vathu_curry_varuval/info.svg',
+        imageSrc: '/dishes/signature/namakkal/vathu_curry_varuval/info.jpeg',
         imageAlt: 'A traditional South Indian duck fry',
     },
 ];
@@ -37,7 +37,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

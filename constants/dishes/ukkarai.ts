@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Ukkarai',
-        imageSrc: '/dishes/signature/thirunelveli/ukkarai/info.svg',
+        imageSrc: '/dishes/signature/thirunelveli/ukkarai/info.jpeg',
         imageAlt: 'A traditional sweet dish made from chana dal, cane sugar, and coconut',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

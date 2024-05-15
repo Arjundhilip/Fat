@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Karupatti Coffee',
-        imageSrc: '/dishes/signature/madurai/karupatti_coffee/info.svg',
+        imageSrc: '/dishes/signature/madurai/karupatti_coffee/info.jpeg',
         imageAlt: 'A warm and comforting coffee',
     },
 ];
@@ -44,7 +44,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Beverage',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

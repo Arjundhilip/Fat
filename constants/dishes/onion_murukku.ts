@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Onion Murukku',
-        imageSrc: '/dishes/signature/theni/onion_murukku/info.svg',
+        imageSrc: '/dishes/signature/theni/onion_murukku/info.jpeg',
         imageAlt: 'A savory and crispy snack made with parboiled rice and shallots',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Snack',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

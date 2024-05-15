@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Makkan Peda',
-        imageSrc: '/dishes/signature/ranipet/makkan_peda/info.svg',
+        imageSrc: '/dishes/signature/ranipet/makkan_peda/info.jpeg',
         imageAlt: 'A creamy and nutty traditional sweet',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

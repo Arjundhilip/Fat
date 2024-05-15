@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Pichu Potta Kozhi',
-        imageSrc: '/dishes/signature/salem/pichu_potta_kozhi/info.svg',
+        imageSrc: '/dishes/signature/salem/pichu_potta_kozhi/info.jpeg',
         imageAlt: 'A South Indian shredded chicken dish',
     },
 ];
@@ -37,7 +37,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

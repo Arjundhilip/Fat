@@ -300,7 +300,7 @@ const Arisimparuppu = () => {
 
                             <div className="flex max-w-lg flex-col">
                                 <Image
-                                    src="/NutritionLabel.png"
+                                    src="/dishes/signature/Coimbatore/arisimparuppu/Nutri.jpeg"
                                     alt="phones"
                                     width={700}
                                     height={1400}
@@ -354,6 +354,13 @@ const Arisimparuppu = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className= "mx-auto max-w-full px-4 place-content-center sm:px-6 lg:px-40">
+                <video muted width="vw" height="vh" controls preload="auto" className='place-content-center justify-end rounded-xl'>
+                    <source src="/dishes/signature/Coimbatore/arisimparuppu/Arsiam.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
             </div>
 
         </section >

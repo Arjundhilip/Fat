@@ -508,15 +508,15 @@ export const virudhunagar = [
     {
         id: 1,
         name: 'Kara Sev',
-        href: '/dishes/signature/kara-sev',
-        imageSrc: '/dishes/signature/virudhunagar/karasev/top.jpg',
+        href: '/dishes/signature/kara_sev',
+        imageSrc: '/dishes/signature/virudhunagar/kara_sev/top.jpg',
         imageAlt: 'Kara Sev',
     },
     {
         id: 2,
         name: 'Srivilliputtur Palkova',
-        href: '/dishes/signature/srivilliputtur-palkova',
-        imageSrc: '/dishes/signature/virudhunagar/srivilliputturpalkova/top.jpg',
+        href: '/dishes/signature/srivilliputtur_palkova',
+        imageSrc: '/dishes/signature/virudhunagar/srivilliputtur_palkova/top.jpg',
         imageAlt: 'Srivilliputtur Palkova',
     },
 ];

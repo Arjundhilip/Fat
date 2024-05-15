@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Macaroons',
-        imageSrc: '/dishes/signature/thoothukudi/macaroons/info.svg',
+        imageSrc: '/dishes/signature/thoothukudi/macaroons/info.jpeg',
         imageAlt: 'A light and airy South Indian macaroon with crispy cashew bits',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Dessert',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Ambur Biriyani',
-        imageSrc: '/dishes/signature/ambur/ambur_biryani/info.svg',
+        imageSrc: '/dishes/signature/ambur/ambur_biryani/info.jpeg',
         imageAlt: 'A popular biryani made with seeraga samba rice, chicken, whole spices, and herbs',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Main Course',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

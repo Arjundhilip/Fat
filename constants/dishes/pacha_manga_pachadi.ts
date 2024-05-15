@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Pacha Manga Pachadi',
-        imageSrc: '/dishes/signature/pudukottai/pacha_manga_pachadi/info.svg',
+        imageSrc: '/dishes/signature/pudukottai/pacha_manga_pachadi/info.jpeg',
         imageAlt: 'A tangy and refreshing side dish',
     },
 ];
@@ -44,7 +44,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Side Dish',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',

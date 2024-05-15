@@ -17,7 +17,7 @@ export const intro = [
 export const info = [
     {
         name: 'Idli Kadapa',
-        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/info.svg',
+        imageSrc: '/dishes/signature/Thanjavur/idli_kadapa/info.jpeg',
         imageAlt: 'A traditional side dish from Kumbakonam, with potatoes, moong dal, and a spiced coconut paste',
     },
 ];
@@ -51,7 +51,7 @@ export const list = [
     {
         name: 'Type of Dish:',
         role: 'Side Dish',
-        imageUrl: '/icons/dish.png',
+        imageUrl: '/icons/climate.png',
     },
     {
         name: 'City:',
